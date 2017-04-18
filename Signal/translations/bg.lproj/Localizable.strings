@@ -238,7 +238,7 @@
 /* {{number of days}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 days}}'. See other *_TIME_AMOUNT strings */
 "DAYS_TIME_AMOUNT" = "%u дни";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with NeverMynd Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Последно активно: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -280,10 +280,10 @@
 /* Short name for edit menu item to share contents of media message. */
 "EDIT_ITEM_SHARE_ACTION" = "Сподели";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
+/* body of email sent to contacts when inviting to install NeverMynd. Embeds {{link to install NeverMynd}} and {{link to WhisperSystems home page}} */
 "EMAIL_INVITE_BODY" = "Здравей,\n\nНапоследък използвам приложението Сигнал за сигурен чат. Инсталирай си го и ти ако желаеш, и ще можем да си пишем сигурно, както и да си говорим чрез него.\n\nСигнал е налично за iPhone и Android. Свали го от тук: %@\n\nСигнал работи като другите програми за чат. Може да си изпращаме снимки и видео, да водим разговори, или да правим групов чат. Най хубавото е, че приложението е сигурно и никой не може да види това което си писал, или изпращал. Дори и тези които са създали Сигнал!\n\nМоже да прочетеш по-вече за Open Whisper Systems, хората които са създали Сигнал, тук: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
+/* subject of email sent to contacts when inviting to install NeverMynd */
 "EMAIL_INVITE_SUBJECT" = "Нека преминем на Сигнал";
 
 /* No comment provided by engineer. */
@@ -331,7 +331,7 @@
 /* Error mesage indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Failed to message user because you blocked them.";
 
-/* Generic error used whenver Signal can't contact the server */
+/* Generic error used whenver NeverMynd can't contact the server */
 "ERROR_DESCRIPTION_NO_INTERNET" = "Сигнал не успя да се свърже с интернет. Моля, опитайте от друга WiFi мрежа или чрез използване на мобилни данни.";
 
 /* Error message when attempting to send message */
@@ -570,11 +570,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Сигнал изисква достъп до камерата ви за видео повикване. Можете да разрешите достъпа от Settings app >> Privacy >> Camera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Сигнал изисква достъп до камерата ви за видео повикване. Можете да разрешите достъпа от Settings app >> Privacy >> Camera >> NeverMynd";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal се нуждае от достъп до камерата ви.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "NeverMynd се нуждае от достъп до камерата ви.";
 
 /* notification title. Embeds {{Caller's Name}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Пропуснато обаждане от %@.";
@@ -731,7 +731,7 @@
 "PUSH_REGISTER_TITLE" = "Изкачащи Известия";
 
 /* No comment provided by engineer. */
-"PUSH_SETTINGS_MESSAGE" = "Сигнал изисква изкачащите уведомления и звуци да бъдат разрешени за да работи коректно. Можете да ги настроите от Settings >> Notification Center >> Signal.";
+"PUSH_SETTINGS_MESSAGE" = "Сигнал изисква изкачащите уведомления и звуци да бъдат разрешени за да работи коректно. Можете да ги настроите от Settings >> Notification Center >> NeverMynd.";
 
 /* No comment provided by engineer. */
 "QUESTIONMARK_PUNCTUATION" = "?";
@@ -850,7 +850,7 @@
 /* Alert body after invite succeeded */
 "SEND_INVITE_SUCCESS" = "Вие поканихте приятелят си да използва Сигнал!";
 
-/* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
+/* Text for button to send a NeverMynd invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Изпрати покана чрез СМС до: %@";
 
 /* No comment provided by engineer. */
@@ -886,8 +886,8 @@
 /* A footer title for the block list table. */
 "SETTINGS_BLOCK_LIST_FOOTER_TITLE" = "Blocked users will not be able to call you or send you messages.";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on Signal.";
+/* A label that indicates the user has no NeverMynd contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on NeverMynd.";
 
 /* Label for the block list section of the settings view */
 "SETTINGS_BLOCK_LIST_TITLE" = "Blocked";
@@ -1000,7 +1000,7 @@
 /* {{1 week}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 week}}'. See other *_TIME_AMOUNT strings */
 "SINGLE_WEEK_TIME_AMOUNT" = "%u седмици";
 
-/* body sent to contacts when inviting to Install Signal */
+/* body sent to contacts when inviting to Install NeverMynd */
 "SMS_INVITE_BODY" = "Предлагам ти да си инсталираш Сигнал! Ето линка:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
@@ -1040,7 +1040,7 @@
 "UNNAMED_DEVICE" = "Неименувано Устройство";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Не успяхте да се отпишете от Сигнал.";
+"UNREGISTER_NeverMynd_FAIL" = "Не успяхте да се отпишете от Сигнал.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Получен е прикачен файл от неподдържан тип.";
@@ -1067,7 +1067,7 @@
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Здравейте Безопасни Видео Обаждания!";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Обновяване на Сигнал ...";
+"Upgrading NeverMynd ..." = "Обновяване на Сигнал ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Обратно";

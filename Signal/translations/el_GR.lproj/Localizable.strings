@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION" = "Παραχωρήστε πρόσβαση";
 
 /* No comment provided by engineer. */
-"AB_PERMISSION_MISSING_BODY" = "Το Signal χρειάζεται πρόσβαση στις επαφές σας. Δεν αποθηκεύουμε τις επαφές σας στους εξυπηρετητές μας.";
+"AB_PERMISSION_MISSING_BODY" = "Το NeverMynd χρειάζεται πρόσβαση στις επαφές σας. Δεν αποθηκεύουμε τις επαφές σας στους εξυπηρετητές μας.";
 
 /* Alert title when contacts disabled */
 "AB_PERMISSION_MISSING_TITLE" = "Συγγνώμη!";
@@ -14,13 +14,13 @@
 "ACTION_REQUIRED_TITLE" = "Απαιτείται ενέργειά σας";
 
 /* Alert body when contacts disabled */
-"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "Το Signal χρειάζεται πρόσβαση στις επαφές σας. Η πρόσβαση αυτή δεν είναι δυνατή. Το Signal θα τερματιστεί. Μπορείτε να απενεργοποιήσετε τον περιορισμό προσωρινά, ώστε να επιτραπεί στο Signal η πρόσβαση στις επαφές σας, πηγαίνοντας στο Ρυθμίσεις >> Περιορισμοί >> Επαφές >> Επιτρέπονται Αλλαγές.";
+"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "Το NeverMynd χρειάζεται πρόσβαση στις επαφές σας. Η πρόσβαση αυτή δεν είναι δυνατή. Το NeverMynd θα τερματιστεί. Μπορείτε να απενεργοποιήσετε τον περιορισμό προσωρινά, ώστε να επιτραπεί στο NeverMynd η πρόσβαση στις επαφές σας, πηγαίνοντας στο Ρυθμίσεις >> Περιορισμοί >> Επαφές >> Επιτρέπονται Αλλαγές.";
 
 /* No comment provided by engineer. */
 "ADDRESSBOOK_RESTRICTED_ALERT_BUTTON" = "Κλείσιμο";
 
 /* registration button text */
-"ALREADY_HAVE_ACCOUNT_BUTTON" = "Έχετε κιόλας λογαριασμό Signal;";
+"ALREADY_HAVE_ACCOUNT_BUTTON" = "Έχετε κιόλας λογαριασμό NeverMynd;";
 
 /* No comment provided by engineer. */
 "ANSWER_CALL_BUTTON_TITLE" = "Απάντηση";
@@ -38,7 +38,7 @@
 "APN_MESSAGE_IN_GROUP_DETAILED" = "%@ στην ομάδα %@: %@";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "NeverMynd";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Αρχείο";
@@ -158,7 +158,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Καμία απάντηση.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Το Signal %@";
+"CALL_STATUS_FORMAT" = "Το NeverMynd %@";
 
 /* Reminder to the user of the benefits of enabling CallKit and disabling CallKit privacy. */
 "CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL" = "You can answer calls directly from your lock screen and see the name and phone number for incoming calls if you change your settings.\n\nSee the privacy settings for details.";
@@ -176,7 +176,7 @@
 "CALLBACK_BUTTON_TITLE" = "Καλέστε πίσω";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Χρήστης Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Χρήστης NeverMynd";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "Compare with Clipboard";
@@ -238,7 +238,7 @@
 /* {{number of days}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 days}}'. See other *_TIME_AMOUNT strings */
 "DAYS_TIME_AMOUNT" = "%u ημέρες";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with NeverMynd Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Τελευταία ενεργός/η: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -280,17 +280,17 @@
 /* Short name for edit menu item to share contents of media message. */
 "EDIT_ITEM_SHARE_ACTION" = "Διαμοιρασμός";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Γειά,\n\nτελευταία χρησιμοποιώ το Signal για να κρατήσω τα μηνύματα στο iPhone μου ιδιωτικά. Θα ήθελα να το εγκαταστήσεις επίσης, για να είμαστε σίγουροι οτι μόνο εγώ και σύ μπορούμε να διαβάσουμε τα μηνύματα μας και να ακούσουμε τις συνομιλίες μας.\n\nΤο Signal υπάρχει για το iPhone και το Android εδώ: %@\n\nΔουλεύει σαν τη τωρινή σου εφαρμογή μηνυμάτων. Μπορούμε να στείλουμε φωτογραφίες και βίντεο, να κάνουμε κλήσεις, και ν' αρχήσουμε ομαδικές συνομιλίες. Το καλύτερο είναι οτι κανείς δεν θα μπορεί να τα δεί, ούτε καν αυτοί που έφτιαξαν το Signal!\n\nΜπορείς να διαβάσεις περισσότερα για τους Open Whisper Systems, τον οργανισμό που έφτιαξε το Signal, εδώ: %@";
+/* body of email sent to contacts when inviting to install NeverMynd. Embeds {{link to install NeverMynd}} and {{link to WhisperSystems home page}} */
+"EMAIL_INVITE_BODY" = "Γειά,\n\nτελευταία χρησιμοποιώ το NeverMynd για να κρατήσω τα μηνύματα στο iPhone μου ιδιωτικά. Θα ήθελα να το εγκαταστήσεις επίσης, για να είμαστε σίγουροι οτι μόνο εγώ και σύ μπορούμε να διαβάσουμε τα μηνύματα μας και να ακούσουμε τις συνομιλίες μας.\n\nΤο NeverMynd υπάρχει για το iPhone και το Android εδώ: %@\n\nΔουλεύει σαν τη τωρινή σου εφαρμογή μηνυμάτων. Μπορούμε να στείλουμε φωτογραφίες και βίντεο, να κάνουμε κλήσεις, και ν' αρχήσουμε ομαδικές συνομιλίες. Το καλύτερο είναι οτι κανείς δεν θα μπορεί να τα δεί, ούτε καν αυτοί που έφτιαξαν το NeverMynd!\n\nΜπορείς να διαβάσεις περισσότερα για τους Open Whisper Systems, τον οργανισμό που έφτιαξε το NeverMynd, εδώ: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Ας χρησιμοποιήσουμε το Signal";
+/* subject of email sent to contacts when inviting to install NeverMynd */
+"EMAIL_INVITE_SUBJECT" = "Ας χρησιμοποιήσουμε το NeverMynd";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Αγγίξτε το κουμπί σύνθεσης";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Αρχίστε την πρώτη συνομιλία σας στο Signal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Αρχίστε την πρώτη συνομιλία σας στο NeverMynd!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Μπορείτε να στείλετε στο Αρχείο σας μη-ενεργές συνομιλίες από τα εισερχόμενά σας.";
@@ -299,7 +299,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Εκκαθάριση συνομιλιών";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Καμία απο τις επαφές σας δεν χρησιμοποιεί το Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Καμία απο τις επαφές σας δεν χρησιμοποιεί το NeverMynd.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Γιατί δεν προσκαλείτε κάποιον;";
@@ -331,11 +331,11 @@
 /* Error mesage indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Failed to message user because you blocked them.";
 
-/* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal was unable to connect to the internet. Please try from another WiFi network or use mobile data.";
+/* Generic error used whenver NeverMynd can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "NeverMynd was unable to connect to the internet. Please try from another WiFi network or use mobile data.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Your device is no longer registered for your phone number. You must remove and reinstall Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Your device is no longer registered for your phone number. You must remove and reinstall NeverMynd.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Σφάλμα διακομιστή. Παρακαλώ δοκιμάστε αργότερα.";
@@ -344,7 +344,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Κάποιο άγνωστο λάθος προέκυψε.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Η επαφή δεν χρησιμοποιεί Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Η επαφή δεν χρησιμοποιεί NeverMynd.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Λήψη ίδιου μηνύματος.";
@@ -356,7 +356,7 @@
 "ERROR_MESSAGE_INVALID_MESSAGE" = "Received message was out of sync. Tap to reset your secure session.";
 
 /* No comment provided by engineer. */
-"ERROR_MESSAGE_INVALID_VERSION" = "Λήψη μηνύματος το οποίο δεν είναι συμβατό με αυτή την έκδοση του Signal.";
+"ERROR_MESSAGE_INVALID_VERSION" = "Λήψη μηνύματος το οποίο δεν είναι συμβατό με αυτή την έκδοση του NeverMynd.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Δεν υπάρχει διαθέσιμή συνεδρία για αυτή την επαφή.";
@@ -371,10 +371,10 @@
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "Ο κώδικας ασφαλείας άλλαξε. Πατήστε για επαλήθευση.";
 
 /* during registration */
-"EXISTING_USER_REGISTRATION_ALERT_BODY" = "At this time Signal can only be active on one mobile device per phone number.";
+"EXISTING_USER_REGISTRATION_ALERT_BODY" = "At this time NeverMynd can only be active on one mobile device per phone number.";
 
 /* during registration, embeds {{device type}}, e.g. \"iPhone\" or \"iPad\" */
-"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Activating this %@ will disable Signal on any other device currently associated with this phone number.";
+"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Activating this %@ will disable NeverMynd on any other device currently associated with this phone number.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Too many failures with this contact. Please try again shortly.";
@@ -464,7 +464,7 @@
 "INCOMING_INCOMPLETE_CALL" = "Incomplete incoming call from";
 
 /* Text for button at the top of the contact picker */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Invite Friends to Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Invite Friends to NeverMynd";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Search";
@@ -570,17 +570,17 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal needs access to your camera for video calls. You can grant this permission in the Settings app >> Privacy >> Camera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "NeverMynd needs access to your camera for video calls. You can grant this permission in the Settings app >> Privacy >> Camera >> NeverMynd";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Το Signal χρειάζεται πρόσβαση στη κάμερά σας.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Το NeverMynd χρειάζεται πρόσβαση στη κάμερά σας.";
 
 /* notification title. Embeds {{Caller's Name}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Αναπάντητη κλήση απο %@.";
 
 /* notification title. */
-"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Αναπάντητη κλήση απο χρήστη Signal.";
+"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Αναπάντητη κλήση απο χρήστη NeverMynd.";
 
 /* No comment provided by engineer. */
 "MSGVIEW_RECEIVED_CALL" = "Δεχτήκατε μία κλήση από %@.";
@@ -695,19 +695,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "The number in your clipboard doesn't look like the correct safety number for this conversation.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal couldn't find any safety number in your clipboard. Have you copied it correctly?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "NeverMynd couldn't find any safety number in your clipboard. Have you copied it correctly?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Every pair of Signal users shares a distinct safety number. Double-check that %@ is displaying *your* distinct safety number.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Every pair of NeverMynd users shares a distinct safety number. Double-check that %@ is displaying *your* distinct safety number.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "You're running an old version of Signal. You need to update before you can verify.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "You're running an old version of NeverMynd. You need to update before you can verify.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Your partner is running an old version of Signal. They need to update before you can verify.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Your partner is running an old version of NeverMynd. They need to update before you can verify.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "The scanned code doesn't look like a safety number code. Are you both on an up-to-date version of Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "The scanned code doesn't look like a safety number code. Are you both on an up-to-date version of NeverMynd?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "If you wish to verify the security of your end-to-end encryption with %@, compare the numbers above with the numbers on their device.\n\nAlternatively, you can scan the code on their phone, or ask them to scan your code.";
@@ -731,19 +731,19 @@
 "PUSH_REGISTER_TITLE" = "Ειδοποιήσεις";
 
 /* No comment provided by engineer. */
-"PUSH_SETTINGS_MESSAGE" = "Το Signal χρειάζεται γνωστοποιήσεις και ήχους για να λειτουργήσει σωστά. Παρακαλώ ενεργοποιήστε τα στην εφαρμογή Ρυθμίσεις >> Κέντρο Γνωστοποιήσεων >> Signal.";
+"PUSH_SETTINGS_MESSAGE" = "Το NeverMynd χρειάζεται γνωστοποιήσεις και ήχους για να λειτουργήσει σωστά. Παρακαλώ ενεργοποιήστε τα στην εφαρμογή Ρυθμίσεις >> Κέντρο Γνωστοποιήσεων >> NeverMynd.";
 
 /* No comment provided by engineer. */
 "QUESTIONMARK_PUNCTUATION" = ";";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Αν σας αρέσει να χρησιμοποιείτε το Signal για να έχετε ιδιωτικές συνομιλίες, μπορείτε να υποστηρίξετε το έργο μας αξιολογώντας την. Δεν θα διαρκέσει περισσότερο από ένα λεπτό, και θα βοηθήσει τους άλλους να βρουν κάποια προστασία της ιδιωτικής τους ζωής.";
+"RATING_MSG" = "Αν σας αρέσει να χρησιμοποιείτε το NeverMynd για να έχετε ιδιωτικές συνομιλίες, μπορείτε να υποστηρίξετε το έργο μας αξιολογώντας την. Δεν θα διαρκέσει περισσότερο από ένα λεπτό, και θα βοηθήσει τους άλλους να βρουν κάποια προστασία της ιδιωτικής τους ζωής.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Αξιολόγηση του Signal";
+"RATING_RATE" = "Αξιολόγηση του NeverMynd";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Υποστηρίξτε το Signal!";
+"RATING_TITLE" = "Υποστηρίξτε το NeverMynd!";
 
 /* No comment provided by engineer. */
 "REGISTER_CC_ERR_ALERT_VIEW_MESSAGE" = "Παρακαλώ εισάγετε έναν έγκυρο κωδικό χώρας";
@@ -752,7 +752,7 @@
 "REGISTER_CC_ERR_ALERT_VIEW_TITLE" = "Κωδικός Χώρας λάθος";
 
 /* No comment provided by engineer. */
-"REGISTER_CONTACTS_BODY" = "Το Signal σας επιτρέπει να πραγματοποιείται προσωπικές συνομιλίες με τις υπάρχουσες επαφές σας. Για να χρησιμοποιήσετε το Signal, παρακαλώ παραχωρήστε την πρόσβαση στις επαφές σας.";
+"REGISTER_CONTACTS_BODY" = "Το NeverMynd σας επιτρέπει να πραγματοποιείται προσωπικές συνομιλίες με τις υπάρχουσες επαφές σας. Για να χρησιμοποιήσετε το NeverMynd, παρακαλώ παραχωρήστε την πρόσβαση στις επαφές σας.";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_CONTINUE" = "Συνέχεια";
@@ -818,7 +818,7 @@
 "RETRY_BUTTON_TEXT" = "Retry";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Our Signal Safety Number:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Our NeverMynd Safety Number:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Your safety number with %@ has changed. You may wish to verify it.";
@@ -848,16 +848,16 @@
 "SEND_INVITE_FAILURE" = "Sending invite failed, please try again later.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "You've invited your friend to use Signal!";
+"SEND_INVITE_SUCCESS" = "You've invited your friend to use NeverMynd!";
 
-/* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
+/* Text for button to send a NeverMynd invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Send Invite via SMS to: %@";
 
 /* No comment provided by engineer. */
 "SEND_SMS_CONFIRM_TITLE" = "Πρόσκληση φίλου μέσω μη-ασφαλούς SMS;";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Θα θέλατε να προσκαλέσετε τον ακόλουθο αριθμό στο Signal:";
+"SEND_SMS_INVITE_TITLE" = "Θα θέλατε να προσκαλέσετε τον ακόλουθο αριθμό στο NeverMynd:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Για εμάς";
@@ -886,14 +886,14 @@
 /* A footer title for the block list table. */
 "SETTINGS_BLOCK_LIST_FOOTER_TITLE" = "Blocked users will not be able to call you or send you messages.";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on Signal.";
+/* A label that indicates the user has no NeverMynd contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on NeverMynd.";
 
 /* Label for the block list section of the settings view */
 "SETTINGS_BLOCK_LIST_TITLE" = "Blocked";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Requires your approval before communicating with someone who has a new safety number, commonly from a reinstall of Signal.";
+"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Requires your approval before communicating with someone who has a new safety number, commonly from a reinstall of NeverMynd.";
 
 /* Table cell label */
 "SETTINGS_BLOCK_ON_IDENTITY_CHANGE_TITLE" = "Require Approval on Change";
@@ -905,7 +905,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Always Relay Calls";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Relay all calls through the Signal server to avoid revealing your IP address to your contact. Enabling will reduce call quality.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Relay all calls through the NeverMynd server to avoid revealing your IP address to your contact. Enabling will reduce call quality.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Διαγραφή ιστορικού";
@@ -935,7 +935,7 @@
 "SETTINGS_INVITE_TITLE" = "Invite Your Friends";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "You can reach me using Signal by @WhisperSystems, get it now.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "You can reach me using NeverMynd by @WhisperSystems, get it now.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Ρυθμίσεις";
@@ -959,10 +959,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Ενεργοποίηση Ασφάλειας Οθόνης";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevent Signal previews from appearing in the app switcher.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevent NeverMynd previews from appearing in the app switcher.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS Call Integration shows Signal calls on your lock screen and in the system's call history. You may optionally show your contact's name and number. If iCloud is enabled, this call history will be shared with Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS Call Integration shows NeverMynd calls on your lock screen and in the system's call history. You may optionally show your contact's name and number. If iCloud is enabled, this call history will be shared with Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Calling";
@@ -1000,8 +1000,8 @@
 /* {{1 week}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 week}}'. See other *_TIME_AMOUNT strings */
 "SINGLE_WEEK_TIME_AMOUNT" = "%u week";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Σε προσκαλώ να εγκαταστήσεις το Signal! Εδώ είναι ο σύνδεσμος:";
+/* body sent to contacts when inviting to Install NeverMynd */
+"SMS_INVITE_BODY" = "Σε προσκαλώ να εγκαταστήσεις το NeverMynd! Εδώ είναι ο σύνδεσμος:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Your safety number with %@ has been verified. You can be confident your communication is private.";
@@ -1034,13 +1034,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Unlink \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal was unable to unlink your device.";
+"UNLINKING_FAILED_ALERT_TITLE" = "NeverMynd was unable to unlink your device.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Unnamed Device";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Αποτυχία αποσύνδεσης από το Signal.";
+"UNREGISTER_NeverMynd_FAIL" = "Αποτυχία αποσύνδεσης από το NeverMynd.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Λήψη συνημμένου του οποίου ο τύπος δεν υποστηρίζεται.";
@@ -1061,13 +1061,13 @@
 "UPGRADE_EXPERIENCE_CALLKIT_TITLE" = "Just Swipe to Answer";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Το Signal πλέον υποστηρίζει ασφαλείς βιντεοκλήσεις. Απλά κάντε μια κλήση Signal όπως συνήθως, πατήστε το κουμπί για το βίντεο, και χαμογελάστε.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Το NeverMynd πλέον υποστηρίζει ασφαλείς βιντεοκλήσεις. Απλά κάντε μια κλήση NeverMynd όπως συνήθως, πατήστε το κουμπί για το βίντεο, και χαμογελάστε.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Hello Secure Video Calls!";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Upgrading Signal ...";
+"Upgrading NeverMynd ..." = "Upgrading NeverMynd ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Back";
@@ -1094,7 +1094,7 @@
 "VERIFY_PRIVACY" = "Verify Safety Number";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Complete setup on Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Complete setup on NeverMynd Desktop.";
 
 /* {{number of weeks}}, embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 weeks}}'. See other *_TIME_AMOUNT strings */
 "WEEKS_TIME_AMOUNT" = "%u weeks";

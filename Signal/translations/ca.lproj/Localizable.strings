@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION" = "Dóna-li accés";
 
 /* No comment provided by engineer. */
-"AB_PERMISSION_MISSING_BODY" = "El Signal requereix accés als contactes. No els emmagatzemem als nostres servidors. ";
+"AB_PERMISSION_MISSING_BODY" = "El NeverMynd requereix accés als contactes. No els emmagatzemem als nostres servidors. ";
 
 /* Alert title when contacts disabled */
 "AB_PERMISSION_MISSING_TITLE" = "Perdó!";
@@ -14,13 +14,13 @@
 "ACTION_REQUIRED_TITLE" = "Requeriment d'acció";
 
 /* Alert body when contacts disabled */
-"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "El Signal requereix accés als contactes. L'accés als contactes està restringit. El Signal es tancarà. Podeu desactivar la restricció temporalment per permetre al Signal accedir als contactes si aneu a Configuració >> General >> Restriccions >> Contactes >> Permetre canvis.";
+"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "El NeverMynd requereix accés als contactes. L'accés als contactes està restringit. El NeverMynd es tancarà. Podeu desactivar la restricció temporalment per permetre al NeverMynd accedir als contactes si aneu a Configuració >> General >> Restriccions >> Contactes >> Permetre canvis.";
 
 /* No comment provided by engineer. */
 "ADDRESSBOOK_RESTRICTED_ALERT_BUTTON" = "Tanca";
 
 /* registration button text */
-"ALREADY_HAVE_ACCOUNT_BUTTON" = "Ja teniu un compte al Signal?";
+"ALREADY_HAVE_ACCOUNT_BUTTON" = "Ja teniu un compte al NeverMynd?";
 
 /* No comment provided by engineer. */
 "ANSWER_CALL_BUTTON_TITLE" = "Respon";
@@ -38,7 +38,7 @@
 "APN_MESSAGE_IN_GROUP_DETAILED" = "%@ en el grup %@: %@";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "NeverMynd";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arxiva";
@@ -158,7 +158,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Sense resposta.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "NeverMynd %@";
 
 /* Reminder to the user of the benefits of enabling CallKit and disabling CallKit privacy. */
 "CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL" = "Podeu contestar telefonades directament des de la pantalla de bloqueig i veure el nom i el telèfon de les telefonades rebudes si canvieu la configuració.\n\nVegeu la configuració de privadesa per a més detalls.";
@@ -176,7 +176,7 @@
 "CALLBACK_BUTTON_TITLE" = "Telefona";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Usuari del Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Usuari del NeverMynd";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "Compara'l amb el porta-retalls";
@@ -238,7 +238,7 @@
 /* {{number of days}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 days}}'. See other *_TIME_AMOUNT strings */
 "DAYS_TIME_AMOUNT" = "%u dies";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with NeverMynd Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Darrera connexió: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -280,11 +280,11 @@
 /* Short name for edit menu item to share contents of media message. */
 "EDIT_ITEM_SHARE_ACTION" = "Comparteix";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Ep,\n\nÚltimament he estat utilitzant el Signal per mantenir les meves converses privades a l'iPhone. M'agradaria que també te l'instal·lessis, per què puguem estar segurs que som els únics que podem llegir els missatges que ens hi enviem.\n\nPots baixar-te-la de l'App Store d'Apple o de la Play Store d'Android: %@\n\nEl Signal funciona com la resta d'aplicacions de missatgeria. Podem enviar-nos fotos i vídeos, fer trucades, i crear grups. La millor part és que ningú més pot veure tot això, ni tan sols la gent que ha creat el Signal!\n\nPots obtenir més informació sobre Open Whisper Systems, la gent que ha creat el Signal, aquí: %@";
+/* body of email sent to contacts when inviting to install NeverMynd. Embeds {{link to install NeverMynd}} and {{link to WhisperSystems home page}} */
+"EMAIL_INVITE_BODY" = "Ep,\n\nÚltimament he estat utilitzant el NeverMynd per mantenir les meves converses privades a l'iPhone. M'agradaria que també te l'instal·lessis, per què puguem estar segurs que som els únics que podem llegir els missatges que ens hi enviem.\n\nPots baixar-te-la de l'App Store d'Apple o de la Play Store d'Android: %@\n\nEl NeverMynd funciona com la resta d'aplicacions de missatgeria. Podem enviar-nos fotos i vídeos, fer trucades, i crear grups. La millor part és que ningú més pot veure tot això, ni tan sols la gent que ha creat el NeverMynd!\n\nPots obtenir més informació sobre Open Whisper Systems, la gent que ha creat el NeverMynd, aquí: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Canviem-nos al Signal";
+/* subject of email sent to contacts when inviting to install NeverMynd */
+"EMAIL_INVITE_SUBJECT" = "Canviem-nos al NeverMynd";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Toqueu el botó de missatge nou.";
@@ -299,7 +299,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Organitzeu les converses.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Cap dels vostres contactes té Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Cap dels vostres contactes té NeverMynd.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Per què no convideu algú?";
@@ -331,11 +331,11 @@
 /* Error mesage indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Failed to message user because you blocked them.";
 
-/* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "El Signal no s'ha pogut connectar a Internet. Proveu des d'altra xarxa WiFi o utilitzeu dades mòbils.";
+/* Generic error used whenver NeverMynd can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "El NeverMynd no s'ha pogut connectar a Internet. Proveu des d'altra xarxa WiFi o utilitzeu dades mòbils.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Aquest dispositiu no es troba registrat per al vostre número. Cal que reinstal·leu el Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Aquest dispositiu no es troba registrat per al vostre número. Cal que reinstal·leu el NeverMynd.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Error del servidor. Proveu de nou més tard.";
@@ -344,7 +344,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "S'ha produit un error desconegut.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "El contacte no és usuari del Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "El contacte no és usuari del NeverMynd.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Rebut missatge duplicat.";
@@ -371,10 +371,10 @@
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "Els números de seguretat han canviat. Premeu per verificar-los.";
 
 /* during registration */
-"EXISTING_USER_REGISTRATION_ALERT_BODY" = "De moment, el Signal només pot ser actiu a un dispositiu mòbil per cada número de telèfon.";
+"EXISTING_USER_REGISTRATION_ALERT_BODY" = "De moment, el NeverMynd només pot ser actiu a un dispositiu mòbil per cada número de telèfon.";
 
 /* during registration, embeds {{device type}}, e.g. \"iPhone\" or \"iPad\" */
-"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "En activar aquest %@, es desactivarà el Signal en qualsevol altre dispositiu associat amb aquest número.";
+"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "En activar aquest %@, es desactivarà el NeverMynd en qualsevol altre dispositiu associat amb aquest número.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Hi ha hagut massa errors amb aquest contacte, torneu a provar més tard.";
@@ -464,7 +464,7 @@
 "INCOMING_INCOMPLETE_CALL" = "Telefonada incompleta de";
 
 /* Text for button at the top of the contact picker */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Convideu els amics al Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Convideu els amics al NeverMynd";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Cerca";
@@ -570,17 +570,17 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "El Signal requereix accés a la càmera per fer telefonades de vídeo. Podeu activar els permisos a la Configuració >> Privadesa >> Càmera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "El NeverMynd requereix accés a la càmera per fer telefonades de vídeo. Podeu activar els permisos a la Configuració >> Privadesa >> Càmera >> NeverMynd";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "El Signal necessita accedir a la càmera.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "El NeverMynd necessita accedir a la càmera.";
 
 /* notification title. Embeds {{Caller's Name}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Telefonada perduda de %@.";
 
 /* notification title. */
-"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Telefonada perduda d'un usuari del Signal.";
+"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Telefonada perduda d'un usuari del NeverMynd.";
 
 /* No comment provided by engineer. */
 "MSGVIEW_RECEIVED_CALL" = "Heu rebut una telefonada de %@.";
@@ -695,19 +695,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "El número del porta-retalls no sembla el número de seguretat correcte per a aquesta conversa.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "El Signal no ha pogut trobar cap número de seguretat al porta-retalls. L'heu copiat correctament?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "El NeverMynd no ha pogut trobar cap número de seguretat al porta-retalls. L'heu copiat correctament?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Cada parell d'usuaris del Signal comparteixen uns números de seguretat únics. Comproveu que %@ mostra *el vostre* número.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Cada parell d'usuaris del NeverMynd comparteixen uns números de seguretat únics. Comproveu que %@ mostra *el vostre* número.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Esteu utilitzant una versió antiga del Signal. Cal que l'actualitzeu abans de verificar.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Esteu utilitzant una versió antiga del NeverMynd. Cal que l'actualitzeu abans de verificar.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "El vostre contacte està utilitzant una versió antiga del Signal. Cal que l'actualitzi abans de verificar.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "El vostre contacte està utilitzant una versió antiga del NeverMynd. Cal que l'actualitzi abans de verificar.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "El codi escanejat no sembla un codi de números de seguretat. Segur que utilitzeu una versió actualitzada del Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "El codi escanejat no sembla un codi de números de seguretat. Segur que utilitzeu una versió actualitzada del NeverMynd?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Si voleu verificar la seguretat del xifratge extrem a extrem amb %@, compareu els números de sobre amb els números del seu dispositiu.\n\nTambé podeu escanejar el codi del seu telèfon, o demanar-li que escanegi el vostre.";
@@ -731,19 +731,19 @@
 "PUSH_REGISTER_TITLE" = "Notificacions «push»";
 
 /* No comment provided by engineer. */
-"PUSH_SETTINGS_MESSAGE" = "El Signal requereix que estiguin activades les alertes i sons de les notificacions push per a funcionar correctament. Canvieu-ho a la Configuració >> Centre de Notificacions >> Signal.";
+"PUSH_SETTINGS_MESSAGE" = "El NeverMynd requereix que estiguin activades les alertes i sons de les notificacions push per a funcionar correctament. Canvieu-ho a la Configuració >> Centre de Notificacions >> NeverMynd.";
 
 /* No comment provided by engineer. */
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Si vos agrada utilitzar el Signal per tenir converses privades, podeu recolzar el nostre projecte valorant-lo. No vos costarà més d'un minut i ajudarà als altres a trobar una mica de privadesa.";
+"RATING_MSG" = "Si vos agrada utilitzar el NeverMynd per tenir converses privades, podeu recolzar el nostre projecte valorant-lo. No vos costarà més d'un minut i ajudarà als altres a trobar una mica de privadesa.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Puntua el Signal";
+"RATING_RATE" = "Puntua el NeverMynd";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Recolzeu el Signal.";
+"RATING_TITLE" = "Recolzeu el NeverMynd.";
 
 /* No comment provided by engineer. */
 "REGISTER_CC_ERR_ALERT_VIEW_MESSAGE" = "Per favor, introdueixi un codi de país vàlid.";
@@ -752,7 +752,7 @@
 "REGISTER_CC_ERR_ALERT_VIEW_TITLE" = "Codi de país erroni";
 
 /* No comment provided by engineer. */
-"REGISTER_CONTACTS_BODY" = "El Signal vos permet tindre conversacions privades amb els vostres contactes. Per usar-lo, doneu-li accés als contactes.";
+"REGISTER_CONTACTS_BODY" = "El NeverMynd vos permet tindre conversacions privades amb els vostres contactes. Per usar-lo, doneu-li accés als contactes.";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_CONTINUE" = "Continua";
@@ -818,7 +818,7 @@
 "RETRY_BUTTON_TEXT" = "Torna a provar";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Els nostres números de seguretat del Signal:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Els nostres números de seguretat del NeverMynd:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Els números de seguretat amb %@ ha canviat. Potser voleu verificar-los.";
@@ -848,16 +848,16 @@
 "SEND_INVITE_FAILURE" = "Ha fallat l'enviament de la invitació, torneu a provar-ho més tard.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Heu convidat el vostre amic a utilitzar el Signal!";
+"SEND_INVITE_SUCCESS" = "Heu convidat el vostre amic a utilitzar el NeverMynd!";
 
-/* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
+/* Text for button to send a NeverMynd invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Envia una invitació per SMS a: %@";
 
 /* No comment provided by engineer. */
 "SEND_SMS_CONFIRM_TITLE" = "Convidar a un amic via SMS segur?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Voleu convidar aquest número al Signal:";
+"SEND_SMS_INVITE_TITLE" = "Voleu convidar aquest número al NeverMynd:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Quant a";
@@ -886,14 +886,14 @@
 /* A footer title for the block list table. */
 "SETTINGS_BLOCK_LIST_FOOTER_TITLE" = "Blocked users will not be able to call you or send you messages.";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "No teniu cap contacte al Signal.";
+/* A label that indicates the user has no NeverMynd contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "No teniu cap contacte al NeverMynd.";
 
 /* Label for the block list section of the settings view */
 "SETTINGS_BLOCK_LIST_TITLE" = "Blocats";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Sol·licita la vostra aprovació abans de comunicar-se amb qui tingui números de seguretat nous, habitualment degut a una nova instal·lació del Signal.";
+"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Sol·licita la vostra aprovació abans de comunicar-se amb qui tingui números de seguretat nous, habitualment degut a una nova instal·lació del NeverMynd.";
 
 /* Table cell label */
 "SETTINGS_BLOCK_ON_IDENTITY_CHANGE_TITLE" = "Requeriment d'aprovació";
@@ -905,7 +905,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Transmet sempre les telefonades";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Transmet totes les telefonades pel servidor del Signal per evitar revelar l'adreça IP al vostre contacte. Activar-ho hi reduirà la qualitat.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Transmet totes les telefonades pel servidor del NeverMynd per evitar revelar l'adreça IP al vostre contacte. Activar-ho hi reduirà la qualitat.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Esborra l'historial";
@@ -935,7 +935,7 @@
 "SETTINGS_INVITE_TITLE" = "Convida els amics";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Podràs trobar-me al Signal de @WhisperSystems, baixa-te'l aviat.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Podràs trobar-me al NeverMynd de @WhisperSystems, baixa-te'l aviat.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Configuració";
@@ -959,10 +959,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Activa la seguretat de pantalla";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevé que la visualització prèvia del Signal aparegui a la multitasca.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevé que la visualització prèvia del NeverMynd aparegui a la multitasca.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "La integració amb iOS mostra les telefonades de Signal a la pantalla de bloqueig i a l'historial de telefonades del sistema. Podeu mostrar el nom i el número del vostre contacte. Si l'iCloud es troba activat, l'historial es compartirà amb Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "La integració amb iOS mostra les telefonades de NeverMynd a la pantalla de bloqueig i a l'historial de telefonades del sistema. Podeu mostrar el nom i el número del vostre contacte. Si l'iCloud es troba activat, l'historial es compartirà amb Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Telefonades";
@@ -1000,8 +1000,8 @@
 /* {{1 week}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 week}}'. See other *_TIME_AMOUNT strings */
 "SINGLE_WEEK_TIME_AMOUNT" = "%u setmana";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Et convide a instal·lar el Signal! Ací tens l'enllaç:";
+/* body sent to contacts when inviting to Install NeverMynd */
+"SMS_INVITE_BODY" = "Et convide a instal·lar el NeverMynd! Ací tens l'enllaç:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "S'ha verificat els vostres números de seguretat amb %@. Podeu estar segur que la comunicació és privada.";
@@ -1034,13 +1034,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Voleu desenllaçar «%@»?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal no ha pogut desenllaçar el dispositiu.";
+"UNLINKING_FAILED_ALERT_TITLE" = "NeverMynd no ha pogut desenllaçar el dispositiu.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Dispositiu sense nom";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "No s'ha pogut cancel·lar el registre.";
+"UNREGISTER_NeverMynd_FAIL" = "No s'ha pogut cancel·lar el registre.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "El tipus del fitxer adjunt rebut no és compatible.";
@@ -1061,13 +1061,13 @@
 "UPGRADE_EXPERIENCE_CALLKIT_TITLE" = "Llisqueu per respondre";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "El Signal és compatible amb les telefonades de vídeo segures. Feu una telefonada normal, toqueu el botó de la càmera i saludeu.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "El NeverMynd és compatible amb les telefonades de vídeo segures. Feu una telefonada normal, toqueu el botó de la càmera i saludeu.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Telefonades de Vídeo Segures!";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "S'està actualitzant el Signal...";
+"Upgrading NeverMynd ..." = "S'està actualitzant el NeverMynd...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Enrere";
@@ -1094,7 +1094,7 @@
 "VERIFY_PRIVACY" = "Verifica els números de seguretat";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Completeu la configuració al Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Completeu la configuració al NeverMynd Desktop.";
 
 /* {{number of weeks}}, embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 weeks}}'. See other *_TIME_AMOUNT strings */
 "WEEKS_TIME_AMOUNT" = "%u setmanes";

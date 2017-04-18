@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION" = "Dozvoli pristup";
 
 /* No comment provided by engineer. */
-"AB_PERMISSION_MISSING_BODY" = "Signal zahtijeva pristup vašim kontaktima. Mi ne pohranjujemo vaše kontakte na naše servere.";
+"AB_PERMISSION_MISSING_BODY" = "NeverMynd zahtijeva pristup vašim kontaktima. Mi ne pohranjujemo vaše kontakte na naše servere.";
 
 /* Alert title when contacts disabled */
 "AB_PERMISSION_MISSING_TITLE" = "Žao nam je!";
@@ -14,13 +14,13 @@
 "ACTION_REQUIRED_TITLE" = "Zahtijeva akciju";
 
 /* Alert body when contacts disabled */
-"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "Signal zahtijeva pristup vašim kontaktima. Pristup kontaktima  je ograničen. Signal će se zatvoriti. Vi možete privremeno onemogućiti ograničenje i dozvoliti da Signal pristupi vašim kontaktima u aplikaciji Postavke >> Općenito >> Ograničenja >> Kontakti >> Dozvoli promjene";
+"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "NeverMynd zahtijeva pristup vašim kontaktima. Pristup kontaktima  je ograničen. NeverMynd će se zatvoriti. Vi možete privremeno onemogućiti ograničenje i dozvoliti da NeverMynd pristupi vašim kontaktima u aplikaciji Postavke >> Općenito >> Ograničenja >> Kontakti >> Dozvoli promjene";
 
 /* No comment provided by engineer. */
 "ADDRESSBOOK_RESTRICTED_ALERT_BUTTON" = "Zatvori";
 
 /* registration button text */
-"ALREADY_HAVE_ACCOUNT_BUTTON" = "Već imate Signal račun?";
+"ALREADY_HAVE_ACCOUNT_BUTTON" = "Već imate NeverMynd račun?";
 
 /* No comment provided by engineer. */
 "ANSWER_CALL_BUTTON_TITLE" = "Odgovori";
@@ -38,7 +38,7 @@
 "APN_MESSAGE_IN_GROUP_DETAILED" = "%@ u grupi %@: %@";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "NeverMynd";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arhiviraj";
@@ -158,7 +158,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Nema odgovora.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "NeverMynd %@";
 
 /* Reminder to the user of the benefits of enabling CallKit and disabling CallKit privacy. */
 "CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL" = "You can answer calls directly from your lock screen and see the name and phone number for incoming calls if you change your settings.\n\nSee the privacy settings for details.";
@@ -176,7 +176,7 @@
 "CALLBACK_BUTTON_TITLE" = "Povratni poziv";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal User";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "NeverMynd User";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "Uporedi sa međuspremnikom";
@@ -238,7 +238,7 @@
 /* {{number of days}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 days}}'. See other *_TIME_AMOUNT strings */
 "DAYS_TIME_AMOUNT" = "%u dana";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with NeverMynd Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Posljednja aktivnost: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -280,17 +280,17 @@
 /* Short name for edit menu item to share contents of media message. */
 "EDIT_ITEM_SHARE_ACTION" = "Share";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hej,\n\nOdnedavno koristim Signal kako bi svoje razgovore na mom iPhoneu zadržao privatnim. Volio bi da ga i ti instaliraš, tako da budemo sigurni da samo ja i ti možemo čitati naše poruke i čuti naše razgovore.\n\nSignal je dostupan za iPhone i Android. Preuzmite ga ovdje : %@\n\nSignal radi kao tvoja postojeća aplikacija za razmjenu poruka. Možemo slati slike i video, vršiti pozive i započeti grupne razgovore. Najbolje stvar je što nitko drugi osim nas ništa od toga ne može vidjeti, pa čak ni ljudi koje čine Signal.\n\nMožeš pročitati više o Open Whisper System i Signalu, ljudima koji stoje iza ovog projekta, ovdje: %@";
+/* body of email sent to contacts when inviting to install NeverMynd. Embeds {{link to install NeverMynd}} and {{link to WhisperSystems home page}} */
+"EMAIL_INVITE_BODY" = "Hej,\n\nOdnedavno koristim NeverMynd kako bi svoje razgovore na mom iPhoneu zadržao privatnim. Volio bi da ga i ti instaliraš, tako da budemo sigurni da samo ja i ti možemo čitati naše poruke i čuti naše razgovore.\n\nNeverMynd je dostupan za iPhone i Android. Preuzmite ga ovdje : %@\n\nNeverMynd radi kao tvoja postojeća aplikacija za razmjenu poruka. Možemo slati slike i video, vršiti pozive i započeti grupne razgovore. Najbolje stvar je što nitko drugi osim nas ništa od toga ne može vidjeti, pa čak ni ljudi koje čine NeverMynd.\n\nMožeš pročitati više o Open Whisper System i NeverMyndu, ljudima koji stoje iza ovog projekta, ovdje: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Pređimo na Signal";
+/* subject of email sent to contacts when inviting to install NeverMynd */
+"EMAIL_INVITE_SUBJECT" = "Pređimo na NeverMynd";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Dodirnite dugme za sastavljanje poruke.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Započnite vaš prvi razgovor na Signalu!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Započnite vaš prvi razgovor na NeverMyndu!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Možete arhivirati neaktivne razgovore za kasnije iz vašeg Sandučića.";
@@ -299,7 +299,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Očistite vaše razgovore.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Niko od vaših kontakata ne koristi Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Niko od vaših kontakata ne koristi NeverMynd.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Zašto nekome ne pošaljete pozivnicu?";
@@ -331,11 +331,11 @@
 /* Error mesage indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Failed to message user because you blocked them.";
 
-/* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal nije u mogućnosti povezati se na internet. Molimo pokušajte sa drugom WiFi ili mobilnom mrežom.";
+/* Generic error used whenver NeverMynd can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "NeverMynd nije u mogućnosti povezati se na internet. Molimo pokušajte sa drugom WiFi ili mobilnom mrežom.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Vaš uređaj više nije registriran za vaš telefonski broj. Morate ukloniti i ponovno instalirati Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Vaš uređaj više nije registriran za vaš telefonski broj. Morate ukloniti i ponovno instalirati NeverMynd.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Pogreška servera. Molimo pokušajte ponovo kasnije.";
@@ -344,7 +344,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Došlo je do nepoznate pogreške.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ne koristi Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ne koristi NeverMynd.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Primljena dupla poruka.";
@@ -371,10 +371,10 @@
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "Sigurnosni broj primijenjen. Dodirnite za verifikaciju.";
 
 /* during registration */
-"EXISTING_USER_REGISTRATION_ALERT_BODY" = "U ovom trenutku Signal može biti aktivan samo na jednom mobilnom uređaju po telefonskom broju.";
+"EXISTING_USER_REGISTRATION_ALERT_BODY" = "U ovom trenutku NeverMynd može biti aktivan samo na jednom mobilnom uređaju po telefonskom broju.";
 
 /* during registration, embeds {{device type}}, e.g. \"iPhone\" or \"iPad\" */
-"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Aktiviranje ovog %@ će onemogućiti Signal na bilo kojem drugom uređaju koji je trenutno povezan sa ovim telefonskim brojem.";
+"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Aktiviranje ovog %@ će onemogućiti NeverMynd na bilo kojem drugom uređaju koji je trenutno povezan sa ovim telefonskim brojem.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Previše neuspjeha sa ovim kontaktom. Pokušajte malo kasnije.";
@@ -464,7 +464,7 @@
 "INCOMING_INCOMPLETE_CALL" = "Incomplete incoming call from";
 
 /* Text for button at the top of the contact picker */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozovite prijatelje na Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozovite prijatelje na NeverMynd";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Pretraga";
@@ -570,17 +570,17 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal zahtijeva pristup vašoj kameri za video pozive. Možete odobriti ovu dozvolu u aplikaciji Postavke >> Privatnost >> Kamera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "NeverMynd zahtijeva pristup vašoj kameri za video pozive. Možete odobriti ovu dozvolu u aplikaciji Postavke >> Privatnost >> Kamera >> NeverMynd";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal treba pristup vašoj kameri.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "NeverMynd treba pristup vašoj kameri.";
 
 /* notification title. Embeds {{Caller's Name}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Missed call from %@.";
 
 /* notification title. */
-"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Missed call from Signal User.";
+"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Missed call from NeverMynd User.";
 
 /* No comment provided by engineer. */
 "MSGVIEW_RECEIVED_CALL" = "Primili ste poziv od %@.";
@@ -695,19 +695,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Broj u vašem međuspremniku ne izgleda kao ispravan sigurnosni broj za ovaj razgovor.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal ne može pronaći nijedan sigurnosni broj u međuspremniku. Da li sta ga ispravno kopirali?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "NeverMynd ne može pronaći nijedan sigurnosni broj u međuspremniku. Da li sta ga ispravno kopirali?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Svaki korisnički par na Signalu dijeli poseban sigurnosni broj. Duplo provjerite da %@ prikazuje *vaš* poseban sigurnosni broj.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Svaki korisnički par na NeverMyndu dijeli poseban sigurnosni broj. Duplo provjerite da %@ prikazuje *vaš* poseban sigurnosni broj.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Pokrećete staru verziju Signala. Potrebno je ažuriranje prije verifikacije.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Pokrećete staru verziju NeverMynda. Potrebno je ažuriranje prije verifikacije.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Vaš partner pokreće staru verziju Signala. Potrebna je nadogradnja prije verifikacije.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Vaš partner pokreće staru verziju NeverMynda. Potrebna je nadogradnja prije verifikacije.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skenirani kôd ne izgleda kao kôd sigurnosnih brojeva. Da li oboje koristite najnoviju verziju Signala?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skenirani kôd ne izgleda kao kôd sigurnosnih brojeva. Da li oboje koristite najnoviju verziju NeverMynda?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Ako želite verifikovati sigurnost end-to-end šifriranja sa %@, uporedite brojeve iznad sa brojevima na njegovom/njezinom uređaju.\n\nAlternativno, možete skenirati kôd na njegovom/njezinom telefonu ili upitati ih da skeniraju vaš kôd.";
@@ -731,19 +731,19 @@
 "PUSH_REGISTER_TITLE" = "Push obavijesti";
 
 /* No comment provided by engineer. */
-"PUSH_SETTINGS_MESSAGE" = "Signal zahtijeva push notifikacije, upozorenja i zvukovi moraju biti omogućeni za ispravno funkcionisanje. Molimo izvršite izmjene u aplikaciji Postavke >> Obavijesti >> Signal.";
+"PUSH_SETTINGS_MESSAGE" = "NeverMynd zahtijeva push notifikacije, upozorenja i zvukovi moraju biti omogućeni za ispravno funkcionisanje. Molimo izvršite izmjene u aplikaciji Postavke >> Obavijesti >> NeverMynd.";
 
 /* No comment provided by engineer. */
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Ako volite koristiti Signal za privatne razgovore, svojom ocijenom možete podržati naš projekat. To vam neće uzeti ni minutu vremena, a pomoći će drugima da pronađu privatnost.";
+"RATING_MSG" = "Ako volite koristiti NeverMynd za privatne razgovore, svojom ocijenom možete podržati naš projekat. To vam neće uzeti ni minutu vremena, a pomoći će drugima da pronađu privatnost.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Ocijeni Signal";
+"RATING_RATE" = "Ocijeni NeverMynd";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Podrži Signal!";
+"RATING_TITLE" = "Podrži NeverMynd!";
 
 /* No comment provided by engineer. */
 "REGISTER_CC_ERR_ALERT_VIEW_MESSAGE" = "Molimo unesite validan državni kôd";
@@ -752,7 +752,7 @@
 "REGISTER_CC_ERR_ALERT_VIEW_TITLE" = "Greška državnog kôda";
 
 /* No comment provided by engineer. */
-"REGISTER_CONTACTS_BODY" = "Signal vam dozvoljava privatne razgovore sa vašim postojećim kontaktima. Da bi koristili Signal, molimo dozvolite pristup vašim kontaktima. ";
+"REGISTER_CONTACTS_BODY" = "NeverMynd vam dozvoljava privatne razgovore sa vašim postojećim kontaktima. Da bi koristili NeverMynd, molimo dozvolite pristup vašim kontaktima. ";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_CONTINUE" = "Nastavi";
@@ -818,7 +818,7 @@
 "RETRY_BUTTON_TEXT" = "Pokušaj";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Naš Signal sigurnosni broj:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Naš NeverMynd sigurnosni broj:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Vaš sigurnosni broj sa %@ je promijenjen. Možda ga želite verifikovati";
@@ -848,16 +848,16 @@
 "SEND_INVITE_FAILURE" = "Slanje pozivnice nije uspjelo, molimo pokušajte kasnije.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Pozvali se prijatelja/icu da koristi Signal!";
+"SEND_INVITE_SUCCESS" = "Pozvali se prijatelja/icu da koristi NeverMynd!";
 
-/* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
+/* Text for button to send a NeverMynd invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Pošalji SMS pozivnicu za: %@";
 
 /* No comment provided by engineer. */
 "SEND_SMS_CONFIRM_TITLE" = "Pošalji pozivnicu prijatelju putem obične SMS poruke?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Želite li poslati pozivnicu na Signal sljedećem broju:";
+"SEND_SMS_INVITE_TITLE" = "Želite li poslati pozivnicu na NeverMynd sljedećem broju:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "O aplikaciji";
@@ -886,14 +886,14 @@
 /* A footer title for the block list table. */
 "SETTINGS_BLOCK_LIST_FOOTER_TITLE" = "Blocked users will not be able to call you or send you messages.";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on Signal.";
+/* A label that indicates the user has no NeverMynd contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on NeverMynd.";
 
 /* Label for the block list section of the settings view */
 "SETTINGS_BLOCK_LIST_TITLE" = "Blocked";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Zahtijeva vaše odobrenje prije komunikacije sa nekim ko ima novi sigurnosni broj, obično zbog reinstalacije Signala.";
+"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Zahtijeva vaše odobrenje prije komunikacije sa nekim ko ima novi sigurnosni broj, obično zbog reinstalacije NeverMynda.";
 
 /* Table cell label */
 "SETTINGS_BLOCK_ON_IDENTITY_CHANGE_TITLE" = "Zahtijeva odobrenje za promjenu";
@@ -905,7 +905,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Always Relay Calls";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Relay all calls through the Signal server to avoid revealing your IP address to your contact. Enabling will reduce call quality.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Relay all calls through the NeverMynd server to avoid revealing your IP address to your contact. Enabling will reduce call quality.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Očisti historijske zapise";
@@ -935,7 +935,7 @@
 "SETTINGS_INVITE_TITLE" = "Pošalji pozivnicu prijateljima";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Povežimo se koristeći Signal od @WhisperSystems, preuzmite aplikaciju sada.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Povežimo se koristeći NeverMynd od @WhisperSystems, preuzmite aplikaciju sada.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Podešavanja";
@@ -959,10 +959,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Omogući sigurnost zaslona";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevent Signal previews from appearing in the app switcher.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevent NeverMynd previews from appearing in the app switcher.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS Call Integration shows Signal calls on your lock screen and in the system's call history. You may optionally show your contact's name and number. If iCloud is enabled, this call history will be shared with Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS Call Integration shows NeverMynd calls on your lock screen and in the system's call history. You may optionally show your contact's name and number. If iCloud is enabled, this call history will be shared with Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Pozivanje";
@@ -1000,8 +1000,8 @@
 /* {{1 week}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 week}}'. See other *_TIME_AMOUNT strings */
 "SINGLE_WEEK_TIME_AMOUNT" = "%u sedmica";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Pozivam vas da instalirate Signal! Ovdje je link:";
+/* body sent to contacts when inviting to Install NeverMynd */
+"SMS_INVITE_BODY" = "Pozivam vas da instalirate NeverMynd! Ovdje je link:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Vaš sigurnosni broj sa %@ je verifikovan. Možete biti uvjereni da je vaša komunikacija privatna.";
@@ -1034,13 +1034,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Prekini vezu sa \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal nije u mogućnosti prekinuti vezu sa vašim uređajem.";
+"UNLINKING_FAILED_ALERT_TITLE" = "NeverMynd nije u mogućnosti prekinuti vezu sa vašim uređajem.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Neimenovani uređaj";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Odjava sa Signala nije uspjela.";
+"UNREGISTER_NeverMynd_FAIL" = "Odjava sa NeverMynda nije uspjela.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Primljeni privitak nije podržan.";
@@ -1061,13 +1061,13 @@
 "UPGRADE_EXPERIENCE_CALLKIT_TITLE" = "Just Swipe to Answer";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal now supports secure video calling. Just start a call like normal, tap the camera button, and wave hello.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "NeverMynd now supports secure video calling. Just start a call like normal, tap the camera button, and wave hello.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Hello Secure Video Calls!";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Signal se nadograđuje ...";
+"Upgrading NeverMynd ..." = "NeverMynd se nadograđuje ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Back";
@@ -1094,7 +1094,7 @@
 "VERIFY_PRIVACY" = "Verifikuj sigurnosni broj";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Završi podešavanje na Signal za Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Završi podešavanje na NeverMynd za Desktop.";
 
 /* {{number of weeks}}, embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 weeks}}'. See other *_TIME_AMOUNT strings */
 "WEEKS_TIME_AMOUNT" = "%u sedmica";

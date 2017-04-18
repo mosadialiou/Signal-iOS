@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION" = "Дозволи пристап";
 
 /* No comment provided by engineer. */
-"AB_PERMISSION_MISSING_BODY" = "Signal бара пристап до твоите контакти. Ни не ги чуваме твоите контакти на нашите сервери.";
+"AB_PERMISSION_MISSING_BODY" = "NeverMynd бара пристап до твоите контакти. Ни не ги чуваме твоите контакти на нашите сервери.";
 
 /* Alert title when contacts disabled */
 "AB_PERMISSION_MISSING_TITLE" = "Извини!";
@@ -14,13 +14,13 @@
 "ACTION_REQUIRED_TITLE" = "Потребно е дејство";
 
 /* Alert body when contacts disabled */
-"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "Signal бара пристап до твоите контакти. Пристапот до контактите е оневозможен. Signal ќе се затвори. Можеш привремено да ја оневозможиш забраната за да му овозможиш на Signal пристап до твоите контакти преку Settings app >> General >> Restrictions >> Contacts >> Allow Changes.    ";
+"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "NeverMynd бара пристап до твоите контакти. Пристапот до контактите е оневозможен. NeverMynd ќе се затвори. Можеш привремено да ја оневозможиш забраната за да му овозможиш на NeverMynd пристап до твоите контакти преку Settings app >> General >> Restrictions >> Contacts >> Allow Changes.    ";
 
 /* No comment provided by engineer. */
 "ADDRESSBOOK_RESTRICTED_ALERT_BUTTON" = "Затвори";
 
 /* registration button text */
-"ALREADY_HAVE_ACCOUNT_BUTTON" = "Веќе имате сметка на Signal?";
+"ALREADY_HAVE_ACCOUNT_BUTTON" = "Веќе имате сметка на NeverMynd?";
 
 /* No comment provided by engineer. */
 "ANSWER_CALL_BUTTON_TITLE" = "Одговори";
@@ -158,7 +158,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "No Answer.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "NeverMynd %@";
 
 /* Reminder to the user of the benefits of enabling CallKit and disabling CallKit privacy. */
 "CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL" = "You can answer calls directly from your lock screen and see the name and phone number for incoming calls if you change your settings.\n\nSee the privacy settings for details.";
@@ -176,7 +176,7 @@
 "CALLBACK_BUTTON_TITLE" = "Повикај повторно";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal User";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "NeverMynd User";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "Compare with Clipboard";
@@ -238,7 +238,7 @@
 /* {{number of days}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 days}}'. See other *_TIME_AMOUNT strings */
 "DAYS_TIME_AMOUNT" = "%u денови";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with NeverMynd Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Последен пат активен: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -280,17 +280,17 @@
 /* Short name for edit menu item to share contents of media message. */
 "EDIT_ITEM_SHARE_ACTION" = "Share";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Здраво,\n\nВо последно време користам Signal за да ја зачувам приватноста на мојот IPhone. Би сакал и ти да го инсталираш, за да може да бидеме сигурни дека само ти и јас ќе ги читаме нашите пораки и слушаме нашите разговори.\n\nSignal е достапен за IPhone и Android уредите. Симни го тука%@\n\nSignal работи исто како и твојата апликација за пораки. Може да се праќаат слики и видео, да се прават повици и да се прават групни разговори. Најдобар дел од сето е што никој не може да види/слушне/прочита ништо од тоа, дури ни луѓето кои го направија Signal!\n\nЗа да прочиташ повеќе за Open Whisper Systems и луѓето кои го направија Signal види на:%@";
+/* body of email sent to contacts when inviting to install NeverMynd. Embeds {{link to install NeverMynd}} and {{link to WhisperSystems home page}} */
+"EMAIL_INVITE_BODY" = "Здраво,\n\nВо последно време користам NeverMynd за да ја зачувам приватноста на мојот IPhone. Би сакал и ти да го инсталираш, за да може да бидеме сигурни дека само ти и јас ќе ги читаме нашите пораки и слушаме нашите разговори.\n\nNeverMynd е достапен за IPhone и Android уредите. Симни го тука%@\n\nNeverMynd работи исто како и твојата апликација за пораки. Може да се праќаат слики и видео, да се прават повици и да се прават групни разговори. Најдобар дел од сето е што никој не може да види/слушне/прочита ништо од тоа, дури ни луѓето кои го направија NeverMynd!\n\nЗа да прочиташ повеќе за Open Whisper Systems и луѓето кои го направија NeverMynd види на:%@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Ајде да се префрлиме на Signal";
+/* subject of email sent to contacts when inviting to install NeverMynd */
+"EMAIL_INVITE_SUBJECT" = "Ајде да се префрлиме на NeverMynd";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Кликнете на иконата горе десно.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Започни го својот прв разговор преку Signal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Започни го својот прв разговор преку NeverMynd!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Може да ги чуваш во архива неактивните разговори за подоцна во дојдовното сандаче.";
@@ -299,7 +299,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Избриши ги разговорите.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Ниеден од вашите контакти нема Signal";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Ниеден од вашите контакти нема NeverMynd";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Зошто не поканиш некого?";
@@ -331,8 +331,8 @@
 /* Error mesage indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Failed to message user because you blocked them.";
 
-/* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal не може да се поврзе на интернет. Ве молиме пробајте преку друга безжична мрежа или користете мобилен интернет.";
+/* Generic error used whenver NeverMynd can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "NeverMynd не може да се поврзе на интернет. Ве молиме пробајте преку друга безжична мрежа или користете мобилен интернет.";
 
 /* Error message when attempting to send message */
 "ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Овој уред не е повеќе регистраран со твојот телефонски број. Мора да го избришеш и преинсталираш Сигнал.";
@@ -371,10 +371,10 @@
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "Сигурносниот  број е променет. Допри за потврда.";
 
 /* during registration */
-"EXISTING_USER_REGISTRATION_ALERT_BODY" = "At this time Signal can only be active on one mobile device per phone number.";
+"EXISTING_USER_REGISTRATION_ALERT_BODY" = "At this time NeverMynd can only be active on one mobile device per phone number.";
 
 /* during registration, embeds {{device type}}, e.g. \"iPhone\" or \"iPad\" */
-"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Activating this %@ will disable Signal on any other device currently associated with this phone number.";
+"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Activating this %@ will disable NeverMynd on any other device currently associated with this phone number.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Too many failures with this contact. Please try again shortly.";
@@ -464,7 +464,7 @@
 "INCOMING_INCOMPLETE_CALL" = "Incomplete incoming call from";
 
 /* Text for button at the top of the contact picker */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Покани ги твоите пријатели во Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Покани ги твоите пријатели во NeverMynd";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Пребарај";
@@ -570,7 +570,7 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal needs access to your camera for video calls. You can grant this permission in the Settings app >> Privacy >> Camera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "NeverMynd needs access to your camera for video calls. You can grant this permission in the Settings app >> Privacy >> Camera >> NeverMynd";
 
 /* Alert title
    Alert title when camera is not authorized */
@@ -580,7 +580,7 @@
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Missed call from %@.";
 
 /* notification title. */
-"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Missed call from Signal User.";
+"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Missed call from NeverMynd User.";
 
 /* No comment provided by engineer. */
 "MSGVIEW_RECEIVED_CALL" = "Прими повик од некој од %@.";
@@ -695,19 +695,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "The number in your clipboard doesn't look like the correct safety number for this conversation.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal couldn't find any safety number in your clipboard. Have you copied it correctly?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "NeverMynd couldn't find any safety number in your clipboard. Have you copied it correctly?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Every pair of Signal users shares a distinct safety number. Double-check that %@ is displaying *your* distinct safety number.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Every pair of NeverMynd users shares a distinct safety number. Double-check that %@ is displaying *your* distinct safety number.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Имате стара верзија на Signal апликацијата. Мора да ја апдејтирате пред да може да верифицирате.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Имате стара верзија на NeverMynd апликацијата. Мора да ја апдејтирате пред да може да верифицирате.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Вашиот партнер/ка има стара верзија на Signal апликацијата. Тој/таа/тоа мора да ја апдејтира пред да може да верифицирате.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Вашиот партнер/ка има стара верзија на NeverMynd апликацијата. Тој/таа/тоа мора да ја апдејтира пред да може да верифицирате.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Скенираниот код не изгледа како код со сигурносни броеви. Дали двајцата/двете имате најнова/апдејтирана верзија на Signal апликацијата?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Скенираниот код не изгледа како код со сигурносни броеви. Дали двајцата/двете имате најнова/апдејтирана верзија на NeverMynd апликацијата?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Ако сакате да ја верифицирате сигурноста на вашата крај-до-крај енкрипција со %@, споредете ги броевите погоре со броевите кои се на нивниот уред.\n\nАлтернативно, можете да го скенирате кодот на нивниот телефон, или да им кажете да го скенираат вашиот код.";
@@ -731,7 +731,7 @@
 "PUSH_REGISTER_TITLE" = "Автоматски известувања";
 
 /* No comment provided by engineer. */
-"PUSH_SETTINGS_MESSAGE" = "За Signal да работи правилно, треба да се овозможат пораки и звуци за автоматски известувања. Направи промена во Поставки >> Центар за известувања >> Signal.\"; ";
+"PUSH_SETTINGS_MESSAGE" = "За NeverMynd да работи правилно, треба да се овозможат пораки и звуци за автоматски известувања. Направи промена во Поставки >> Центар за известувања >> NeverMynd.\"; ";
 
 /* No comment provided by engineer. */
 "QUESTIONMARK_PUNCTUATION" = "?";
@@ -818,7 +818,7 @@
 "RETRY_BUTTON_TEXT" = "Обиди се пак";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Our Signal Safety Number:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Our NeverMynd Safety Number:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Твојот сигурносен број со %@ е променет. Би требало да го провериш. ";
@@ -848,16 +848,16 @@
 "SEND_INVITE_FAILURE" = "Sending invite failed, please try again later.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Го покани твојот пријател да користи Signal!";
+"SEND_INVITE_SUCCESS" = "Го покани твојот пријател да користи NeverMynd!";
 
-/* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
+/* Text for button to send a NeverMynd invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Send Invite via SMS to: %@";
 
 /* No comment provided by engineer. */
 "SEND_SMS_CONFIRM_TITLE" = "Сакаш да поканиш пријател со небезбедна порака?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Дали би сакал да го поканиш следниов број на Signal:";
+"SEND_SMS_INVITE_TITLE" = "Дали би сакал да го поканиш следниов број на NeverMynd:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "За апликацијата";
@@ -886,14 +886,14 @@
 /* A footer title for the block list table. */
 "SETTINGS_BLOCK_LIST_FOOTER_TITLE" = "Blocked users will not be able to call you or send you messages.";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on Signal.";
+/* A label that indicates the user has no NeverMynd contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on NeverMynd.";
 
 /* Label for the block list section of the settings view */
 "SETTINGS_BLOCK_LIST_TITLE" = "Blocked";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Requires your approval before communicating with someone who has a new safety number, commonly from a reinstall of Signal.";
+"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Requires your approval before communicating with someone who has a new safety number, commonly from a reinstall of NeverMynd.";
 
 /* Table cell label */
 "SETTINGS_BLOCK_ON_IDENTITY_CHANGE_TITLE" = "Require Approval on Change";
@@ -905,7 +905,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Always Relay Calls";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Relay all calls through the Signal server to avoid revealing your IP address to your contact. Enabling will reduce call quality.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Relay all calls through the NeverMynd server to avoid revealing your IP address to your contact. Enabling will reduce call quality.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Избриши ги историите за логирањата";
@@ -935,7 +935,7 @@
 "SETTINGS_INVITE_TITLE" = "Покани ги твоите пријатели";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Може да ме добиеш користејќи Signal од @WhisperSystems, симни го веднаш.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Може да ме добиеш користејќи NeverMynd од @WhisperSystems, симни го веднаш.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Поставки";
@@ -959,10 +959,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Овозможи безбедност на екранот";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevent Signal previews from appearing in the app switcher.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevent NeverMynd previews from appearing in the app switcher.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS Call Integration shows Signal calls on your lock screen and in the system's call history. You may optionally show your contact's name and number. If iCloud is enabled, this call history will be shared with Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS Call Integration shows NeverMynd calls on your lock screen and in the system's call history. You may optionally show your contact's name and number. If iCloud is enabled, this call history will be shared with Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Повикување";
@@ -1000,8 +1000,8 @@
 /* {{1 week}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 week}}'. See other *_TIME_AMOUNT strings */
 "SINGLE_WEEK_TIME_AMOUNT" = "%u недела";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Те поканувам да го користиш Signal. Еве ја врската.";
+/* body sent to contacts when inviting to Install NeverMynd */
+"SMS_INVITE_BODY" = "Те поканувам да го користиш NeverMynd. Еве ја врската.";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Твојот сигурносен број сов %@ беше проверен. Мозе да бидеш сигурен/на дека комуникацијата е приватна.";
@@ -1034,13 +1034,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Исклучен: \"%@?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal не беше во можност да го одлинкува вашиот уред.";
+"UNLINKING_FAILED_ALERT_TITLE" = "NeverMynd не беше во можност да го одлинкува вашиот уред.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Неименуван уред";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Неуспешно одјавување од Signal";
+"UNREGISTER_NeverMynd_FAIL" = "Неуспешно одјавување од NeverMynd";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Примен неподржан тип на прилог";
@@ -1061,13 +1061,13 @@
 "UPGRADE_EXPERIENCE_CALLKIT_TITLE" = "Just Swipe to Answer";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal now supports secure video calling. Just start a call like normal, tap the camera button, and wave hello.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "NeverMynd now supports secure video calling. Just start a call like normal, tap the camera button, and wave hello.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Hello Secure Video Calls!";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Upgrading Signal ...";
+"Upgrading NeverMynd ..." = "Upgrading NeverMynd ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Back";
@@ -1094,7 +1094,7 @@
 "VERIFY_PRIVACY" = "Провери го сигурносниот број";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Complete setup on Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Complete setup on NeverMynd Desktop.";
 
 /* {{number of weeks}}, embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 weeks}}'. See other *_TIME_AMOUNT strings */
 "WEEKS_TIME_AMOUNT" = "%u недели";

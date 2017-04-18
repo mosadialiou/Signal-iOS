@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION" = "Permite accesul";
 
 /* No comment provided by engineer. */
-"AB_PERMISSION_MISSING_BODY" = "Signal solicită accesul la contactele tale. Noi nu stocăm informația despre contactele tale pe serverele noastre.";
+"AB_PERMISSION_MISSING_BODY" = "NeverMynd solicită accesul la contactele tale. Noi nu stocăm informația despre contactele tale pe serverele noastre.";
 
 /* Alert title when contacts disabled */
 "AB_PERMISSION_MISSING_TITLE" = "Scuze!";
@@ -14,13 +14,13 @@
 "ACTION_REQUIRED_TITLE" = "Se Necesită Acțiune";
 
 /* Alert body when contacts disabled */
-"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "Signal are nevoie de acces la contactele tale. Accesul la contacte este restricționat. Signal se va închide. Poți dezactiva restricția temporar pentru a permite Signal accesul la contactele tale prin navigarea la Setări >> General >> Restricții >> Contacte >> Permite Schimbări.";
+"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "NeverMynd are nevoie de acces la contactele tale. Accesul la contacte este restricționat. NeverMynd se va închide. Poți dezactiva restricția temporar pentru a permite NeverMynd accesul la contactele tale prin navigarea la Setări >> General >> Restricții >> Contacte >> Permite Schimbări.";
 
 /* No comment provided by engineer. */
 "ADDRESSBOOK_RESTRICTED_ALERT_BUTTON" = "Închide";
 
 /* registration button text */
-"ALREADY_HAVE_ACCOUNT_BUTTON" = "Ai deja un cont Signal?";
+"ALREADY_HAVE_ACCOUNT_BUTTON" = "Ai deja un cont NeverMynd?";
 
 /* No comment provided by engineer. */
 "ANSWER_CALL_BUTTON_TITLE" = "Răspunde";
@@ -38,7 +38,7 @@
 "APN_MESSAGE_IN_GROUP_DETAILED" = "%@ în grupul %@: %@";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "NeverMynd";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arhivează";
@@ -158,7 +158,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Nici un răspuns.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "NeverMynd %@";
 
 /* Reminder to the user of the benefits of enabling CallKit and disabling CallKit privacy. */
 "CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL" = "Poți răspunde la apeluri direct din ecranul de blocare și să vezi numele și numărul de telefon pentru apelurile primite dacă îți schimbi setările.\n\n Uită-te la setările de confidențialitate pentru mai multe detalii.";
@@ -176,7 +176,7 @@
 "CALLBACK_BUTTON_TITLE" = "Sună înapoi";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Utilizator Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Utilizator NeverMynd";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "Compară cu Clipboard";
@@ -238,7 +238,7 @@
 /* {{number of days}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 days}}'. See other *_TIME_AMOUNT strings */
 "DAYS_TIME_AMOUNT" = "%u zile";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with NeverMynd Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Activ ultima oară: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -280,17 +280,17 @@
 /* Short name for edit menu item to share contents of media message. */
 "EDIT_ITEM_SHARE_ACTION" = "Partajează";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hey,\n\nRecent am început să folosesc Signal pentru a-mi păstra conversațiile private pe iPhone. Aș dori să-ți instalezi și tu aplicația, ca să fim siguri că numai noi doi putem citi mesajele sau să ascultăm apelurile.\n\nSignal este disponibil pentru iPhone și Android. Obține-l de aici:%@\n\nSignal funcționează ca și aplicația ta curentă de mesagerie. Putem trimite poze și video-uri, putem suna, și putem incepe chat-uri de grup. Cea mai bună parte este că nimeni altcineva nu poate vedea toate acestea, nici măcar oamenii care dezvoltă Signal!\n\nPoți afla mai multe despre Open Whisper Systems, oamenii care dezvoltă Signal, aici: %@";
+/* body of email sent to contacts when inviting to install NeverMynd. Embeds {{link to install NeverMynd}} and {{link to WhisperSystems home page}} */
+"EMAIL_INVITE_BODY" = "Hey,\n\nRecent am început să folosesc NeverMynd pentru a-mi păstra conversațiile private pe iPhone. Aș dori să-ți instalezi și tu aplicația, ca să fim siguri că numai noi doi putem citi mesajele sau să ascultăm apelurile.\n\nNeverMynd este disponibil pentru iPhone și Android. Obține-l de aici:%@\n\nNeverMynd funcționează ca și aplicația ta curentă de mesagerie. Putem trimite poze și video-uri, putem suna, și putem incepe chat-uri de grup. Cea mai bună parte este că nimeni altcineva nu poate vedea toate acestea, nici măcar oamenii care dezvoltă NeverMynd!\n\nPoți afla mai multe despre Open Whisper Systems, oamenii care dezvoltă NeverMynd, aici: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Hai să folosim Signal";
+/* subject of email sent to contacts when inviting to install NeverMynd */
+"EMAIL_INVITE_SUBJECT" = "Hai să folosim NeverMynd";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Apasă pe butonul de compunere.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Începe prima ta cinversație in Signal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Începe prima ta cinversație in NeverMynd!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Poți arhiva mai târziu conversațiile inactive din inbox-ul tău.";
@@ -299,7 +299,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Ștergerge Conversațiile Tale";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Nici un contact de al tău nu are Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Nici un contact de al tău nu are NeverMynd.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "De ce nu inviți pe cineva?";
@@ -331,11 +331,11 @@
 /* Error mesage indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Failed to message user because you blocked them.";
 
-/* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal nu s-a putut conecta la internet. Te rog să incerci dintr-o altă rețea WiFi sau folosește datele mobile.";
+/* Generic error used whenver NeverMynd can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "NeverMynd nu s-a putut conecta la internet. Te rog să incerci dintr-o altă rețea WiFi sau folosește datele mobile.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Dispozitivul tău nu mai este înregistrat pentru numărul tău de telefon. Trebuie să ștergi și să reinstalezi Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Dispozitivul tău nu mai este înregistrat pentru numărul tău de telefon. Trebuie să ștergi și să reinstalezi NeverMynd.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Eroare de server. Te rog încearcă mai târziu.";
@@ -344,7 +344,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "A apărut o eroare necunoscută.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Contactul nu este un utilizator de Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Contactul nu este un utilizator de NeverMynd.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "A fost primit un mesaj duplicat.";
@@ -371,10 +371,10 @@
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "Numărul de siguranță s-a schimbat. Apasă pentru a verifica.";
 
 /* during registration */
-"EXISTING_USER_REGISTRATION_ALERT_BODY" = "Momentan Signal poate fi activ doar pe un singur dispozitiv mobil per număr de telefon.";
+"EXISTING_USER_REGISTRATION_ALERT_BODY" = "Momentan NeverMynd poate fi activ doar pe un singur dispozitiv mobil per număr de telefon.";
 
 /* during registration, embeds {{device type}}, e.g. \"iPhone\" or \"iPad\" */
-"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Activând acest %@ va dezactiva Signal pe orice alte dispozitive asociate momentan cu acest număr de telefon.";
+"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Activând acest %@ va dezactiva NeverMynd pe orice alte dispozitive asociate momentan cu acest număr de telefon.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Prea multe erori pentru acest contact. Te rog încearcă din nou în curând.";
@@ -464,7 +464,7 @@
 "INCOMING_INCOMPLETE_CALL" = "Apel de intrare incomplet de la";
 
 /* Text for button at the top of the contact picker */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Invită-ți prietenii la Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Invită-ți prietenii la NeverMynd";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Căutare";
@@ -570,17 +570,17 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal are nevoie de acces la cameră pentru apelurile video. Poți activa această permisiune din Configurări >> Intimitate >> Cameră >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "NeverMynd are nevoie de acces la cameră pentru apelurile video. Poți activa această permisiune din Configurări >> Intimitate >> Cameră >> NeverMynd";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal are nevoie de acces la camera ta.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "NeverMynd are nevoie de acces la camera ta.";
 
 /* notification title. Embeds {{Caller's Name}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Apel ratat de la %@.";
 
 /* notification title. */
-"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Apel ratat de la un utilizator Signal.";
+"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Apel ratat de la un utilizator NeverMynd.";
 
 /* No comment provided by engineer. */
 "MSGVIEW_RECEIVED_CALL" = "Ai primit un apel de la %@.";
@@ -695,19 +695,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Numărul din clipboard-ul tău nu pare a fi un număr de siguranță corect pentru această conversație.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal nu a putut găsi nici un număr de siguranță în clipboard-ul tău. L-ai copiat corect?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "NeverMynd nu a putut găsi nici un număr de siguranță în clipboard-ul tău. L-ai copiat corect?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Fiecare pereche de utilizatori Signal partajează un număr de siguranță distinct. Verifică din nou dacă %@ afișează numărul *tău* de siguranță.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Fiecare pereche de utilizatori NeverMynd partajează un număr de siguranță distinct. Verifică din nou dacă %@ afișează numărul *tău* de siguranță.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Folosești o versiune veche de Signal. Trebuie să actualizezi aplicația înainte de a realiza verificarea.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Folosești o versiune veche de NeverMynd. Trebuie să actualizezi aplicația înainte de a realiza verificarea.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Partenerul tău folosește o versiune veche de Signal. Trebuie sa-și actualizeze aplicația pentru a realiza verificarea.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Partenerul tău folosește o versiune veche de NeverMynd. Trebuie sa-și actualizeze aplicația pentru a realiza verificarea.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Codul scanat nu pare a fi un număr de siguranță. Folosiți amândoi o versiune actualizată de Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Codul scanat nu pare a fi un număr de siguranță. Folosiți amândoi o versiune actualizată de NeverMynd?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Dacă dorești să verifici securitatea criptării integrale cu %@, compară numerele de deasupra cu numerele de pe dispozitivul lor.\n\nAlternativ, poți scana codul de pe telefonul lor sau îi poți ruga să scaneze codul tău.";
@@ -731,19 +731,19 @@
 "PUSH_REGISTER_TITLE" = "Notificări Push";
 
 /* No comment provided by engineer. */
-"PUSH_SETTINGS_MESSAGE" = "Pentru a funcționa corect aplicația Signal necesită ca notificările push și sunetele să fie activate.Vă rugăm sa faceți modificările necesare în Configurări >> Notificări >> Signal.";
+"PUSH_SETTINGS_MESSAGE" = "Pentru a funcționa corect aplicația NeverMynd necesită ca notificările push și sunetele să fie activate.Vă rugăm sa faceți modificările necesare în Configurări >> Notificări >> NeverMynd.";
 
 /* No comment provided by engineer. */
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Dacă îți place sa folosești aplicația Signal pentru conversații confidențiale,atunci poți sprijini proectul nostru prin ai acorda o notă.Asta nu va dura mai mult de un minut,și va ajuta pe alții să găsească intimitate in conversații.";
+"RATING_MSG" = "Dacă îți place sa folosești aplicația NeverMynd pentru conversații confidențiale,atunci poți sprijini proectul nostru prin ai acorda o notă.Asta nu va dura mai mult de un minut,și va ajuta pe alții să găsească intimitate in conversații.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Apreciază Aplicația Signal";
+"RATING_RATE" = "Apreciază Aplicația NeverMynd";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Susţine Signal!";
+"RATING_TITLE" = "Susţine NeverMynd!";
 
 /* No comment provided by engineer. */
 "REGISTER_CC_ERR_ALERT_VIEW_MESSAGE" = "Vă rugăm să introduceți un prefix de țară corect.";
@@ -752,7 +752,7 @@
 "REGISTER_CC_ERR_ALERT_VIEW_TITLE" = "Prefixul Țării Incorect";
 
 /* No comment provided by engineer. */
-"REGISTER_CONTACTS_BODY" = "Signal îți permite să ai conversații private cu contactele tale existente. Pentru a folosi Signal, te rog permite accesul la contactele tale.";
+"REGISTER_CONTACTS_BODY" = "NeverMynd îți permite să ai conversații private cu contactele tale existente. Pentru a folosi NeverMynd, te rog permite accesul la contactele tale.";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_CONTINUE" = "Continuă";
@@ -818,7 +818,7 @@
 "RETRY_BUTTON_TEXT" = "Reîncearcă";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Numărul nostru Signal de Siguranță:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Numărul nostru NeverMynd de Siguranță:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Numărul tău de siguranță pentru %@ s-a schimbat. S-ar putea să dorești să-l verifici.";
@@ -848,16 +848,16 @@
 "SEND_INVITE_FAILURE" = "Invitația trimisă a eșuat, te rog încearcă din nou mai târziu.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Ai invitat prietenul tău să folosească Signal!";
+"SEND_INVITE_SUCCESS" = "Ai invitat prietenul tău să folosească NeverMynd!";
 
-/* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
+/* Text for button to send a NeverMynd invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Trimite invitație prin SMS către: %@";
 
 /* No comment provided by engineer. */
 "SEND_SMS_CONFIRM_TITLE" = "Invită un prieten prin SMS nesecurizat?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Ai dori să inviți numărul următor să folosească aplicația Signal:";
+"SEND_SMS_INVITE_TITLE" = "Ai dori să inviți numărul următor să folosească aplicația NeverMynd:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Despre";
@@ -886,14 +886,14 @@
 /* A footer title for the block list table. */
 "SETTINGS_BLOCK_LIST_FOOTER_TITLE" = "Blocked users will not be able to call you or send you messages.";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on Signal.";
+/* A label that indicates the user has no NeverMynd contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "You have no contacts on NeverMynd.";
 
 /* Label for the block list section of the settings view */
 "SETTINGS_BLOCK_LIST_TITLE" = "Blocked";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Este nevoie de aprobarea ta înainte de a comunica cu cineva care are un nou număr de siguranță, situație comună când se reinstalează Signal.";
+"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Este nevoie de aprobarea ta înainte de a comunica cu cineva care are un nou număr de siguranță, situație comună când se reinstalează NeverMynd.";
 
 /* Table cell label */
 "SETTINGS_BLOCK_ON_IDENTITY_CHANGE_TITLE" = "Cere aprobare la modificare";
@@ -905,7 +905,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Redirecționează întotdeauna apelurile";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Redirecționează toate apelurile către serverul Signal pentru a evita aflarea adresei IP de către contact tău. Activarea va reduce calitatea apelului.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Redirecționează toate apelurile către serverul NeverMynd pentru a evita aflarea adresei IP de către contact tău. Activarea va reduce calitatea apelului.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Șterge log-urile cu istoric";
@@ -935,7 +935,7 @@
 "SETTINGS_INVITE_TITLE" = "Invită-ți prietenii";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Poți să mă contactezi pe Signal de la @WhisperSystems, obține-l acum.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Poți să mă contactezi pe NeverMynd de la @WhisperSystems, obține-l acum.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Setări";
@@ -959,10 +959,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Activează ecranul de securitate";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Previne previzualizare lui Signal în app switcher.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Previne previzualizare lui NeverMynd în app switcher.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Integrarea de apel iOS afișează apelurile Signal pe ecranul de blocare și în jurnalul de apeluri de sistem.  Poți afișa opțional numele și numărul de telefon al contactului tău. Dacă iCloud este activat, istoricul apelurilor va fi partajat cu Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Integrarea de apel iOS afișează apelurile NeverMynd pe ecranul de blocare și în jurnalul de apeluri de sistem.  Poți afișa opțional numele și numărul de telefon al contactului tău. Dacă iCloud este activat, istoricul apelurilor va fi partajat cu Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Apel în curs";
@@ -1000,8 +1000,8 @@
 /* {{1 week}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 week}}'. See other *_TIME_AMOUNT strings */
 "SINGLE_WEEK_TIME_AMOUNT" = "%u săptămână";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Te invit să instalezi Signal! Uite link-ul:";
+/* body sent to contacts when inviting to Install NeverMynd */
+"SMS_INVITE_BODY" = "Te invit să instalezi NeverMynd! Uite link-ul:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Numărul tău de siguranță pentru %@ a fost verificat. Poți fi sigur că comunicarea este privată.";
@@ -1034,13 +1034,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Deconectez \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal nu a putut deconecta dispozitivul tău.";
+"UNLINKING_FAILED_ALERT_TITLE" = "NeverMynd nu a putut deconecta dispozitivul tău.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Dispozitiv fără nume";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Anularea înregistrării de la Signal a eșuat.";
+"UNREGISTER_NeverMynd_FAIL" = "Anularea înregistrării de la NeverMynd a eșuat.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "A fost primit un tip de atașament care nu e suportat.";
@@ -1061,13 +1061,13 @@
 "UPGRADE_EXPERIENCE_CALLKIT_TITLE" = "Glisează pentru a răspunde";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal suportă acum apeluri video securizate. Trebuie doar să inițiezi un apel în mod normal, să apeși pe butonul de cameră și să faci cu mana.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "NeverMynd suportă acum apeluri video securizate. Trebuie doar să inițiezi un apel în mod normal, să apeși pe butonul de cameră și să faci cu mana.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Bun venit la apeluri video securizate!";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Se actualizează Signal ...";
+"Upgrading NeverMynd ..." = "Se actualizează NeverMynd ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Înapoi";
@@ -1094,7 +1094,7 @@
 "VERIFY_PRIVACY" = "Verifică Numărul de Siguranță";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Finalizează configurarea în Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Finalizează configurarea în NeverMynd Desktop.";
 
 /* {{number of weeks}}, embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 weeks}}'. See other *_TIME_AMOUNT strings */
 "WEEKS_TIME_AMOUNT" = "%u săptămâni";

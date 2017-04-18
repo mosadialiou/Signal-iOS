@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION" = "Zugriff erlauben";
 
 /* No comment provided by engineer. */
-"AB_PERMISSION_MISSING_BODY" = "Signal benötigt Zugriff auf deine Kontakte. Diese werden jedoch nicht auf unseren Servern gespeichert.";
+"AB_PERMISSION_MISSING_BODY" = "NeverMynd benötigt Zugriff auf deine Kontakte. Diese werden jedoch nicht auf unseren Servern gespeichert.";
 
 /* Alert title when contacts disabled */
 "AB_PERMISSION_MISSING_TITLE" = "Entschuldigung!";
@@ -14,13 +14,13 @@
 "ACTION_REQUIRED_TITLE" = "Aktion erforderlich";
 
 /* Alert body when contacts disabled */
-"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "Signal benötigt Zugriff auf deine Kontakte. Da dieser Zugriff verweigert wurde, wird Signal beendet. Du kannst die Berechtigung dafür über die iOS-Einstellungen vorübergehend wiederherstellen: Einstellungen >> Allgemein >> Einschränkungen >> Kontakte >> Änderungen zulassen.";
+"ADDRESSBOOK_RESTRICTED_ALERT_BODY" = "NeverMynd benötigt Zugriff auf deine Kontakte. Da dieser Zugriff verweigert wurde, wird NeverMynd beendet. Du kannst die Berechtigung dafür über die iOS-Einstellungen vorübergehend wiederherstellen: Einstellungen >> Allgemein >> Einschränkungen >> Kontakte >> Änderungen zulassen.";
 
 /* No comment provided by engineer. */
 "ADDRESSBOOK_RESTRICTED_ALERT_BUTTON" = "Beenden";
 
 /* registration button text */
-"ALREADY_HAVE_ACCOUNT_BUTTON" = "Signal-Konto bereits vorhanden?";
+"ALREADY_HAVE_ACCOUNT_BUTTON" = "NeverMynd-Konto bereits vorhanden?";
 
 /* No comment provided by engineer. */
 "ANSWER_CALL_BUTTON_TITLE" = "Annehmen";
@@ -38,7 +38,7 @@
 "APN_MESSAGE_IN_GROUP_DETAILED" = "%@ in Gruppe %@: %@";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "NeverMynd";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Archivieren";
@@ -158,7 +158,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Keine Antwort.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "NeverMynd %@";
 
 /* Reminder to the user of the benefits of enabling CallKit and disabling CallKit privacy. */
 "CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL" = "Durch Ändern deiner Einstellungen kannst du Anrufe direkt aus dem Sperrbildschirm heraus beantworten sowie Name und Rufnummer für eingehende Anrufe sehen.\n\nSiehe die Datenschutzeinstelllungen für Details.";
@@ -176,7 +176,7 @@
 "CALLBACK_BUTTON_TITLE" = "Rückruf";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal-Benutzer";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "NeverMynd-Benutzer";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "Mit Zwischenablage vergleichen";
@@ -238,7 +238,7 @@
 /* {{number of days}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 days}}'. See other *_TIME_AMOUNT strings */
 "DAYS_TIME_AMOUNT" = "%u Tage";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with NeverMynd Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Zuletzt aktiv: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -280,17 +280,17 @@
 /* Short name for edit menu item to share contents of media message. */
 "EDIT_ITEM_SHARE_ACTION" = "Teilen";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hallo,\n\nseit einiger Zeit verwende ich Signal, um die Konversationen auf meinem iPhone vertraulich zu halten. Es wäre schön, wenn auch du es installieren könntest, sodass wir darauf vertrauen können, dass nur du und ich unsere Nachrichten sehen oder unsere Telefonate hören können.\n\nSignal ist für iPhones und Android-Geräte verfügbar. Du erhälst es hier: %@\n\nSignal funktioniert wie deine bereits existierende Sofortnachrichten-App. Wir können Bilder und Videos versenden, Anrufe tätigen und Gruppenunterhaltungen beginnen. Das Beste daran ist, dass niemand anderes irgendetwas davon sehen kann - selbst nicht die Leute, die Signal entwickeln!\n\nDu kannst mehr über Open Whisper Systems, die Entwickler von Signal, hier erfahren: %@";
+/* body of email sent to contacts when inviting to install NeverMynd. Embeds {{link to install NeverMynd}} and {{link to WhisperSystems home page}} */
+"EMAIL_INVITE_BODY" = "Hallo,\n\nseit einiger Zeit verwende ich NeverMynd, um die Konversationen auf meinem iPhone vertraulich zu halten. Es wäre schön, wenn auch du es installieren könntest, sodass wir darauf vertrauen können, dass nur du und ich unsere Nachrichten sehen oder unsere Telefonate hören können.\n\nNeverMynd ist für iPhones und Android-Geräte verfügbar. Du erhälst es hier: %@\n\nNeverMynd funktioniert wie deine bereits existierende Sofortnachrichten-App. Wir können Bilder und Videos versenden, Anrufe tätigen und Gruppenunterhaltungen beginnen. Das Beste daran ist, dass niemand anderes irgendetwas davon sehen kann - selbst nicht die Leute, die NeverMynd entwickeln!\n\nDu kannst mehr über Open Whisper Systems, die Entwickler von NeverMynd, hier erfahren: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Lass uns zu Signal wechseln";
+/* subject of email sent to contacts when inviting to install NeverMynd */
+"EMAIL_INVITE_SUBJECT" = "Lass uns zu NeverMynd wechseln";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Zum Verfassen einer Nachricht das Bleistift-Symbol antippen.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Starte deine erste Signal-Unterhaltung!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Starte deine erste NeverMynd-Unterhaltung!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Du kannst inaktive Unterhaltungen archivieren.";
@@ -299,7 +299,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Unterhaltungen aufräumen.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Keiner deiner Kontakte verwendet Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Keiner deiner Kontakte verwendet NeverMynd.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Warum lädst du nicht jemanden ein?";
@@ -331,11 +331,11 @@
 /* Error mesage indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Nachrichtenversand gescheitert, da du den Benutzer blockiert hast.";
 
-/* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal konnte keine Verbindung zum Internet herstellen. Bitte versuche ein anderes WLAN-Netzwerk oder verwende die mobile Datenverbindung.";
+/* Generic error used whenver NeverMynd can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "NeverMynd konnte keine Verbindung zum Internet herstellen. Bitte versuche ein anderes WLAN-Netzwerk oder verwende die mobile Datenverbindung.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Dieses Gerät ist für deine Rufnummer nicht mehr registriert. Du musst Signal entfernen und erneut installieren.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Dieses Gerät ist für deine Rufnummer nicht mehr registriert. Du musst NeverMynd entfernen und erneut installieren.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Serverfehler. Bitte versuche es später erneut.";
@@ -344,7 +344,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Ein unbekannter Fehler ist aufgetreten.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ist kein Signal-Nutzer.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ist kein NeverMynd-Nutzer.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Doppelte Nachricht erhalten.";
@@ -356,7 +356,7 @@
 "ERROR_MESSAGE_INVALID_MESSAGE" = "Empfangene Nachricht fehlerhaft verschlüsselt. Antippen, um die Verschlüsselung neu zu starten.";
 
 /* No comment provided by engineer. */
-"ERROR_MESSAGE_INVALID_VERSION" = "Mit dieser Signal-Version inkompatible Nachricht erhalten.";
+"ERROR_MESSAGE_INVALID_VERSION" = "Mit dieser NeverMynd-Version inkompatible Nachricht erhalten.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Kein Schlüssel für diesen Kontakt vorhanden.";
@@ -371,10 +371,10 @@
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "Sicherheitsnummer geändert. Zum Überprüfen antippen.";
 
 /* during registration */
-"EXISTING_USER_REGISTRATION_ALERT_BODY" = "Derzeit kann Signal je Rufnummer nur auf einem Mobilgerät aktiv sein.";
+"EXISTING_USER_REGISTRATION_ALERT_BODY" = "Derzeit kann NeverMynd je Rufnummer nur auf einem Mobilgerät aktiv sein.";
 
 /* during registration, embeds {{device type}}, e.g. \"iPhone\" or \"iPad\" */
-"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Die Aktivierung dieses %@s wird Signal auf jedem anderen mit dieser Rufnummer verknüpften Gerät deaktivieren.";
+"EXISTING_USER_REGISTRATION_ALERT_TITLE" = "Die Aktivierung dieses %@s wird NeverMynd auf jedem anderen mit dieser Rufnummer verknüpften Gerät deaktivieren.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Zu viele Fehler mit diesem Kontakt. Bitte in Kürze erneut versuchen.";
@@ -464,7 +464,7 @@
 "INCOMING_INCOMPLETE_CALL" = "Unvollständiger eingehender Anruf von";
 
 /* Text for button at the top of the contact picker */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Freunde zu Signal einladen";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Freunde zu NeverMynd einladen";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Suchen";
@@ -570,17 +570,17 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal benötigt für Videoanrufe Zugriff auf deine Kamera. Du kannst diese Berechtigung über die iOS-Einstellungen erteilen: Einstellungen >> Datenschutz >> Kamera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "NeverMynd benötigt für Videoanrufe Zugriff auf deine Kamera. Du kannst diese Berechtigung über die iOS-Einstellungen erteilen: Einstellungen >> Datenschutz >> Kamera >> NeverMynd";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal benötigt Zugriff auf deine Kamera.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "NeverMynd benötigt Zugriff auf deine Kamera.";
 
 /* notification title. Embeds {{Caller's Name}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Entgangener Anruf von %@.";
 
 /* notification title. */
-"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Entgangener Anruf von Signal-Nutzer.";
+"MSGVIEW_MISSED_CALL_WITHOUT_NAME" = "Entgangener Anruf von NeverMynd-Nutzer.";
 
 /* No comment provided by engineer. */
 "MSGVIEW_RECEIVED_CALL" = "Du hast einen Anruf von %@ erhalten.";
@@ -695,19 +695,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Die Nummer in deiner Zwischenablage scheint nicht die korrekten Sicherheitsnummer für diese Unterhaltung zu sein.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal konnte in deiner Zwischenablage keine Sicherheitsnummer finden. Hast du sie korrekt kopiert?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "NeverMynd konnte in deiner Zwischenablage keine Sicherheitsnummer finden. Hast du sie korrekt kopiert?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Jedes Paar von Signal-Benutzern teilt eine individuelle Sicherheitsnummer. Überprüfe noch einmal, ob %@ wirklich *eure* individuelle Sicherheitsnummer anzeigt.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Jedes Paar von NeverMynd-Benutzern teilt eine individuelle Sicherheitsnummer. Überprüfe noch einmal, ob %@ wirklich *eure* individuelle Sicherheitsnummer anzeigt.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Du verwendest eine alte Version von Signal. Um den Kontakt überprüfen zu können, aktualisiere bitte die Signal-App.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Du verwendest eine alte Version von NeverMynd. Um den Kontakt überprüfen zu können, aktualisiere bitte die NeverMynd-App.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Dein Kontakt verwendet eine alte Version von Signal. Um den Kontakt überprüfen zu können, muss dieser die Signal-App aktualisieren.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Dein Kontakt verwendet eine alte Version von NeverMynd. Um den Kontakt überprüfen zu können, muss dieser die NeverMynd-App aktualisieren.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Der eingescannte Code sieht nicht wie ein Code für Sicherheitsnummern aus. Verwendet ihr beide eine aktuelle Version von Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Der eingescannte Code sieht nicht wie ein Code für Sicherheitsnummern aus. Verwendet ihr beide eine aktuelle Version von NeverMynd?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Falls du die Sicherheit deiner Ende-zu-Ende-Verschlüsselung mit %@ überprüfen möchtest, so vergleiche bitte die oben dargestellten Nummern mit den Nummern auf dem Gerät deines Kontakts.\n\nAlternativ kannst du den Code deines Kontakts einscannen oder ihn deinen eigenen Code einscannen lassen.";
@@ -731,19 +731,19 @@
 "PUSH_REGISTER_TITLE" = "Push-Mitteilungen";
 
 /* No comment provided by engineer. */
-"PUSH_SETTINGS_MESSAGE" = "Signal benötigt die Erlaubnis zur Anzeige von Push-Mitteilungen, um über neue Anrufe oder Nachrichten zu informieren. Bitte erteile diese in den iOS-Einstellungen: Einstellungen >> Mitteilungen >> Signal.";
+"PUSH_SETTINGS_MESSAGE" = "NeverMynd benötigt die Erlaubnis zur Anzeige von Push-Mitteilungen, um über neue Anrufe oder Nachrichten zu informieren. Bitte erteile diese in den iOS-Einstellungen: Einstellungen >> Mitteilungen >> NeverMynd.";
 
 /* No comment provided by engineer. */
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Falls dir die Nutzung von Signal für private Unterhaltungen gefällt, kannst du unser Projekt durch deine Bewertung unterstützen. Dies dauert nicht länger als eine Minute und wird anderen helfen, ihre Privatsphäre zu schützen.";
+"RATING_MSG" = "Falls dir die Nutzung von NeverMynd für private Unterhaltungen gefällt, kannst du unser Projekt durch deine Bewertung unterstützen. Dies dauert nicht länger als eine Minute und wird anderen helfen, ihre Privatsphäre zu schützen.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Signal bewerten";
+"RATING_RATE" = "NeverMynd bewerten";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Unterstütze Signal!";
+"RATING_TITLE" = "Unterstütze NeverMynd!";
 
 /* No comment provided by engineer. */
 "REGISTER_CC_ERR_ALERT_VIEW_MESSAGE" = "Bitte gib eine gültige Landesvorwahl ein";
@@ -752,7 +752,7 @@
 "REGISTER_CC_ERR_ALERT_VIEW_TITLE" = "Fehler bei der Landesvorwahl";
 
 /* No comment provided by engineer. */
-"REGISTER_CONTACTS_BODY" = "Signal ermöglicht private Unterhaltungen mit deinen bereits vorhandenen Kontakten. Um Signal verwenden zu können, erlaube bitte Zugriff auf deine Kontakte.";
+"REGISTER_CONTACTS_BODY" = "NeverMynd ermöglicht private Unterhaltungen mit deinen bereits vorhandenen Kontakten. Um NeverMynd verwenden zu können, erlaube bitte Zugriff auf deine Kontakte.";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_CONTINUE" = "Fortfahren";
@@ -818,7 +818,7 @@
 "RETRY_BUTTON_TEXT" = "Erneut versuchen";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Unsere Signal-Sicherheitsnummer:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Unsere NeverMynd-Sicherheitsnummer:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Deine Sicherheitsnummer mit %@ hat sich geändert. Vielleicht möchtest du sie überprüfen.";
@@ -848,16 +848,16 @@
 "SEND_INVITE_FAILURE" = "Versenden der Einladung gescheitert. Bitte später erneut versuchen.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Du hast deinen Freund eingeladen, Signal zu verwenden!";
+"SEND_INVITE_SUCCESS" = "Du hast deinen Freund eingeladen, NeverMynd zu verwenden!";
 
-/* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
+/* Text for button to send a NeverMynd invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Einladung via SMS senden an: %@";
 
 /* No comment provided by engineer. */
 "SEND_SMS_CONFIRM_TITLE" = "Einen Freund per ungesicherter SMS einladen?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Möchtest du die folgende Rufnummer zu Signal einladen:";
+"SEND_SMS_INVITE_TITLE" = "Möchtest du die folgende Rufnummer zu NeverMynd einladen:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Über";
@@ -886,14 +886,14 @@
 /* A footer title for the block list table. */
 "SETTINGS_BLOCK_LIST_FOOTER_TITLE" = "Blockierte Benutzer werden dich nicht anrufen oder dir Nachrichten senden können.";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Du hast bei Signal keine Kontakte.";
+/* A label that indicates the user has no NeverMynd contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Du hast bei NeverMynd keine Kontakte.";
 
 /* Label for the block list section of the settings view */
 "SETTINGS_BLOCK_LIST_TITLE" = "Blockiert";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Erfordert deine Zustimmung vor der Kommunikation mit jemandem mit einer neuen Sicherheitsnummer. Grund hierfür ist häufig eine Neuinstallation von Signal.";
+"SETTINGS_BLOCK_ON_IDENITY_CHANGE_DETAIL" = "Erfordert deine Zustimmung vor der Kommunikation mit jemandem mit einer neuen Sicherheitsnummer. Grund hierfür ist häufig eine Neuinstallation von NeverMynd.";
 
 /* Table cell label */
 "SETTINGS_BLOCK_ON_IDENTITY_CHANGE_TITLE" = "Bei Änderung Zustimmung erfordern";
@@ -905,7 +905,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Anrufe immer umleiten";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Alle Anrufe über den Signal-Server leiten, um deine IP-Adresse gegenüber Kontakten nicht offenzulegen. Bei Aktivierung wird sich die Anrufqualität verringern.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Alle Anrufe über den NeverMynd-Server leiten, um deine IP-Adresse gegenüber Kontakten nicht offenzulegen. Bei Aktivierung wird sich die Anrufqualität verringern.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Verlauf löschen";
@@ -935,7 +935,7 @@
 "SETTINGS_INVITE_TITLE" = "Deine Freunde einladen";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Du kannst mich über »Signal« von @WhisperSystems erreichen. Hole dir gleich die kostenlose App.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Du kannst mich über »NeverMynd« von @WhisperSystems erreichen. Hole dir gleich die kostenlose App.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Einstellungen";
@@ -959,10 +959,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Bildschirmsicherheit aktivieren";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Erscheinen von Signal-Vorschauen im App-Umschalter verhindern.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Erscheinen von NeverMynd-Vorschauen im App-Umschalter verhindern.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS-Anrufintegration zeigt Signal-Anrufe auf dem Sperrbildschirm und der Systemanrufliste an. Optional kannst du Name und Rufnummer deines Kontakts anzeigen lassen. Falls iCloud aktiviert ist, wird diese Anrufliste mit Apple geteilt.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS-Anrufintegration zeigt NeverMynd-Anrufe auf dem Sperrbildschirm und der Systemanrufliste an. Optional kannst du Name und Rufnummer deines Kontakts anzeigen lassen. Falls iCloud aktiviert ist, wird diese Anrufliste mit Apple geteilt.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Anrufe";
@@ -1000,8 +1000,8 @@
 /* {{1 week}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 week}}'. See other *_TIME_AMOUNT strings */
 "SINGLE_WEEK_TIME_AMOUNT" = "%u Woche";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Ich möchte dich einladen, »Signal« zu verwenden! Hier ist der Link:";
+/* body sent to contacts when inviting to Install NeverMynd */
+"SMS_INVITE_BODY" = "Ich möchte dich einladen, »NeverMynd« zu verwenden! Hier ist der Link:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Deine Sicherheitsnummer mit %@ wurde erfolgreich überprüft. Du kannst sicher sein, dass eure Kommunikation vertraulich ist.";
@@ -1040,7 +1040,7 @@
 "UNNAMED_DEVICE" = "Unbenanntes Gerät";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Löschen des Benutzerkontos gescheitert.";
+"UNREGISTER_NeverMynd_FAIL" = "Löschen des Benutzerkontos gescheitert.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Nicht unterstützten Anhangstyp erhalten.";
@@ -1061,13 +1061,13 @@
 "UPGRADE_EXPERIENCE_CALLKIT_TITLE" = "Zum Antworten wischen";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal unterstützt jetzt sichere Videoanrufe. Beginne einfach einen Signal-Anruf wie sonst auch, tippe die Kameraschaltfläche an und winke deinem Kontakt zu.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "NeverMynd unterstützt jetzt sichere Videoanrufe. Beginne einfach einen NeverMynd-Anruf wie sonst auch, tippe die Kameraschaltfläche an und winke deinem Kontakt zu.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Hallo, sichere Videoanrufe!";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Signal wird aktualisiert …";
+"Upgrading NeverMynd ..." = "NeverMynd wird aktualisiert …";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Zurück";
@@ -1094,7 +1094,7 @@
 "VERIFY_PRIVACY" = "Sicherheitsnummer überprüfen";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Schließe die Einrichtung von Signal Desktop ab.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Schließe die Einrichtung von NeverMynd Desktop ab.";
 
 /* {{number of weeks}}, embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 weeks}}'. See other *_TIME_AMOUNT strings */
 "WEEKS_TIME_AMOUNT" = "%u Wochen";
