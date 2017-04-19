@@ -42,7 +42,7 @@ PODS:
   - Reachability (3.2)
   - SAMKeychain (1.5.2)
   - SCWaveformView (1.0.0)
-  - SignalServiceKit (0.9.0):
+  - SignalServiceKit (0.9.1):
     - '25519'
     - AFNetworking
     - AxolotlKit
@@ -116,7 +116,7 @@ DEPENDENCIES:
   - OpenSSL
   - PureLayout
   - SCWaveformView (~> 1.0)
-  - SignalServiceKit (from `https://github.com/WhisperSystems/SignalServiceKit.git`)
+  - SignalServiceKit (from `https://github.com/aqnouch/SignalServiceKit.git`)
   - SocketRocket (from `https://github.com/facebook/SocketRocket.git`)
 
 EXTERNAL SOURCES:
@@ -126,20 +126,20 @@ EXTERNAL SOURCES:
     :branch: mkirk/position-edit-menu
     :git: https://github.com/WhisperSystems/JSQMessagesViewController.git
   SignalServiceKit:
-    :git: https://github.com/WhisperSystems/SignalServiceKit.git
+    :git: https://github.com/aqnouch/SignalServiceKit.git
   SocketRocket:
     :git: https://github.com/facebook/SocketRocket.git
 
 CHECKOUT OPTIONS:
   AxolotlKit:
-    :commit: 139bde37738ccb6ebcc68bf1b02c8a28400b6760
+    :commit: bce663486ac34c70594deae8260b3cd29dd086e9
     :git: https://github.com/WhisperSystems/SignalProtocolKit.git
   JSQMessagesViewController:
     :commit: 7054e4b13ee5bcd6d524adb6dc9a726e8c466308
     :git: https://github.com/WhisperSystems/JSQMessagesViewController.git
   SignalServiceKit:
-    :commit: 6649b1a12fb6f0dfa440faacc05b704cbf5ce4e3
-    :git: https://github.com/WhisperSystems/SignalServiceKit.git
+    :commit: 514013661cc4d936b15fe14fee22a6253caff596
+    :git: https://github.com/aqnouch/SignalServiceKit.git
   SocketRocket:
     :commit: 877ac7438be3ad0b45ef5ca3969574e4b97112bf
     :git: https://github.com/facebook/SocketRocket.git
@@ -160,13 +160,13 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
   SCWaveformView: 52a96750255d817e300565a80c81fb643e233e07
-  SignalServiceKit: 59a79a51b89b963ba94db30cc99ed5212da0bb9f
+  SignalServiceKit: 249a8581219184dca8cd803e870fd4a68c182d85
   SocketRocket: dbb1554b8fc288ef8ef370d6285aeca7361be31e
   SQLCipher: 43d12c0eb9c57fb438749618fc3ce0065509a559
   TwistedOakCollapsingFutures: f359b90f203e9ab13dfb92c9ff41842a7fe1cd0c
   UnionFind: c33be5adb12983981d6e827ea94fc7f9e370f52d
   YapDatabase: b1e43555a34a5298e23a045be96817a5ef0da58f
 
-PODFILE CHECKSUM: d4f237ca4bd0b71e488d29b1e38dc31d06e45a52
+PODFILE CHECKSUM: 3a0a474d21a926955d966dbb7cc346d92f730cc8
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.1.1
