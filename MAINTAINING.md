@@ -12,7 +12,3 @@ Keeping cocoapods based dependencies is easy enough.
 Similarly, Carthage dependencies can be updated like so:
 
 `carthage update`
-
-## Translations
-
-Read more about translations in [TRANSLATIONS.md](signal/translations/TRANSLATIONS.md)
