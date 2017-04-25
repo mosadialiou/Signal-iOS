@@ -57,10 +57,10 @@ carthage build --platform iOS
 
 ## 3. XCode
 
-Open the `Signal.xcworkspace` in Xcode.
+Open the `NeverMynd.xcworkspace` in Xcode.
 
 ```
-open Signal.xcworkspace
+open NeverMynd.xcworkspace
 ```
 
 In the Signal target on the General tab, change the Team drop down to
