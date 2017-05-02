@@ -12,8 +12,7 @@
 }
 
 - (void)configureWithCountryCode:(NSString *)code andCountryName:(NSString *)name {
-    _countryCodeLabel.text = code;
-    _countryNameLabel.text = name;
+    _countryNameLabel.text = [NSString stringWithFormat:@"%@ (%@)", name, code ] ;
 }
 
 @end

@@ -239,7 +239,7 @@
 "CORRUPTED_SESSION_DESCRIPTION" = "Resetting your session will allow you to receive future messages from %@, but it will not recover any already corrupted messages.";
 
 /* No comment provided by engineer. */
-"COUNTRYCODE_SELECT_TITLE" = "Select Country Code";
+"COUNTRYCODE_SELECT_TITLE" = "Country Code";
 
 /* Accessibility label for the create group new group button */
 "CREATE_NEW_GROUP" = "Create new group";
@@ -788,7 +788,7 @@
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "Country Code";
 
 /* Placeholder text for the phone number textfield */
-"REGISTRATION_ENTERNUMBER_DEFAULT_TEXT" = "Enter Number";
+"REGISTRATION_ENTERNUMBER_DEFAULT_TEXT" = "Phone Number";
 
 /* No comment provided by engineer. */
 "REGISTRATION_ERROR" = "Registration Error";
@@ -806,7 +806,10 @@
 "REGISTRATION_RESTRICTED_MESSAGE" = "Someone's excited to send their first message! You need to register before performing this action.";
 
 /* No comment provided by engineer. */
-"REGISTRATION_TITLE_LABEL" = "Your Phone Number";
+"REGISTRATION_TITLE_LABEL" = "Please enter your country code and phone number.";
+
+/* No comment provided by engineer. */
+"REGISTRATION_FOOTER_LABEL" = "A sms verification code will be sent to your phone number.";
 
 /* Alert view title */
 "REGISTRATION_VERIFICATION_FAILED_TITLE" = "Verification Failed";
@@ -1097,7 +1100,7 @@
 "VERIFICATION_CHALLENGE_SUBMIT_CODE" = "Submit Verification Code";
 
 /* Label indicating the phone number currently being verified. */
-"VERIFICATION_PHONE_NUMBER_FORMAT" = "Enter the verification code we sent to %@.";
+"VERIFICATION_PHONE_NUMBER_FORMAT" = "Please enter the verification code sent to %@.";
 
 /* table cell label in conversation settings */
 "VERIFY_PRIVACY" = "Verify Safety Number";

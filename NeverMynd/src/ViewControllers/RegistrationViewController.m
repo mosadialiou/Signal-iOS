@@ -35,29 +35,16 @@ static NSString *const kCodeSentSegue = @"codeSent";
     [[Environment getCurrent] setSignUpFlowNavigationController:self.navigationController];
 
     _titleLabel.text = NSLocalizedString(@"REGISTRATION_TITLE_LABEL", @"");
-    [_countryNameButton
-        setTitle:NSLocalizedString(@"REGISTRATION_DEFAULT_COUNTRY_NAME", @"Label for the country code field")
-        forState:UIControlStateNormal];
     _phoneNumberTextField.placeholder = NSLocalizedString(
         @"REGISTRATION_ENTERNUMBER_DEFAULT_TEXT", @"Placeholder text for the phone number textfield");
-    [_phoneNumberButton
-        setTitle:NSLocalizedString(@"REGISTRATION_PHONENUMBER_BUTTON", @"Label for the phone number textfield")
-        forState:UIControlStateNormal];
-    [_phoneNumberButton.titleLabel setAdjustsFontSizeToFitWidth:YES];
-    [_sendCodeButton setTitle:NSLocalizedString(@"REGISTRATION_VERIFY_DEVICE", @"") forState:UIControlStateNormal];
-    [_existingUserButton setTitle:NSLocalizedString(@"ALREADY_HAVE_ACCOUNT_BUTTON", @"registration button text")
-                         forState:UIControlStateNormal];
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-    [self adjustScreenSizes];
+    
+    _footerLabel.text = NSLocalizedString(@"REGISTRATION_FOOTER_LABEL", @"");
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
 
-    [_sendCodeButton setEnabled:YES];
-    [_spinnerView stopAnimating];
     [_phoneNumberTextField becomeFirstResponder];
 }
 
@@ -82,34 +69,10 @@ static NSString *const kCodeSentSegue = @"codeSent";
     _callingCode = callingCode;
 
     NSString *title = [NSString stringWithFormat:@"%@ (%@)",
-                       callingCode,
-                       countryCode.uppercaseString];
+                       countryName,
+                       callingCode];
     [_countryCodeButton setTitle:title
                         forState:UIControlStateNormal];
-    
-    // In the absence of a rewrite to a programmatic layout,
-    // re-add the country code and name views in order to
-    // remove any layout constraints that apply to them.
-    UIView *superview = _countryCodeButton.superview;
-    [_countryNameButton removeFromSuperview];
-    [_countryCodeButton removeFromSuperview];
-    [_countryNameButton removeConstraints:_countryNameButton.constraints];
-    [_countryCodeButton removeConstraints:_countryCodeButton.constraints];
-
-    [superview addSubview:_countryNameButton];
-    [superview addSubview:_countryCodeButton];
-    [_countryNameButton autoVCenterInSuperview];
-    [_countryCodeButton autoVCenterInSuperview];
-    [_countryNameButton autoSetDimension:ALDimensionHeight toSize:26];
-    [_countryCodeButton autoSetDimension:ALDimensionHeight toSize:26];
-    [_countryNameButton autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:20];
-    [_countryCodeButton autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:16];
-    [_countryNameButton autoSetDimension:ALDimensionWidth toSize:150];
-    [_countryCodeButton autoSetDimension:ALDimensionWidth toSize:150];
-    _countryNameButton.translatesAutoresizingMaskIntoConstraints = NO;
-    _countryCodeButton.translatesAutoresizingMaskIntoConstraints = NO;
-    
-    [superview layoutSubviews];
 }
 
 #pragma mark - Actions
@@ -137,14 +100,14 @@ static NSString *const kCodeSentSegue = @"codeSent";
     NSString *phoneNumber = [NSString stringWithFormat:@"%@%@", _callingCode, _phoneNumberTextField.text];
     PhoneNumber *localNumber = [PhoneNumber tryParsePhoneNumberFromUserSpecifiedText:phoneNumber];
 
-    [_sendCodeButton setEnabled:NO];
-    [_spinnerView startAnimating];
+    [_nextButton setEnabled:NO];
+    
     [_phoneNumberTextField resignFirstResponder];
 
     [TSAccountManager registerWithPhoneNumber:localNumber.toE164
         success:^{
-          [self performSegueWithIdentifier:@"codeSent" sender:self];
-          [_spinnerView stopAnimating];
+            [_nextButton setEnabled:YES];
+          [self performSegueWithIdentifier:kCodeSentSegue sender:self];
         }
         failure:^(NSError *error) {
           if (error.code == 400) {
@@ -153,9 +116,8 @@ static NSString *const kCodeSentSegue = @"codeSent";
           } else {
               SignalAlertView(error.localizedDescription, error.localizedRecoverySuggestion);
           }
-
-          [_sendCodeButton setEnabled:YES];
-          [_spinnerView stopAnimating];
+            
+            [_nextButton setEnabled:YES];
         }
         smsVerification:YES];
 }
@@ -198,6 +160,8 @@ static NSString *const kCodeSentSegue = @"codeSent";
                 shouldChangeCharactersInRange:range
                             replacementString:insertionText
                                   countryCode:_callingCode];
+    
+    _nextButton.enabled = _phoneNumberTextField.hasText;
 
     return NO; // inform our caller that we took care of performing the change
 }
@@ -226,19 +190,5 @@ static NSString *const kCodeSentSegue = @"codeSent";
     [self textField:_phoneNumberTextField shouldChangeCharactersInRange:NSMakeRange(0, 0) replacementString:@""];
 }
 
-#pragma mark iPhone 5s or shorter
-
-- (void)adjustScreenSizes
-{
-    CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
-
-    if (screenHeight < 568) { // iphone 4s
-        self.signalLogo.hidden = YES;
-        _headerHeightConstraint.constant = 20;
-    } else if (screenHeight < 667) { // iphone 5
-        self.signalLogo.hidden = YES;
-        _headerHeightConstraint.constant = 120;
-    }
-}
 
 @end

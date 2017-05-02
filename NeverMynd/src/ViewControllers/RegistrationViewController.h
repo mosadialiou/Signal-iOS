@@ -13,22 +13,13 @@
 @interface RegistrationViewController : UIViewController <UITextFieldDelegate>
 
 // Country code
-@property (nonatomic, strong) IBOutlet UIButton *countryNameButton;
 @property (nonatomic, strong) IBOutlet UIButton *countryCodeButton;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *nextButton;
 
 // Phone number
 @property (nonatomic, strong) IBOutlet UITextField *phoneNumberTextField;
-@property (nonatomic, strong) IBOutlet UIButton *phoneNumberButton;
 @property (nonatomic, strong) IBOutlet UILabel *titleLabel;
-// Button
-@property (nonatomic, strong) IBOutlet UIButton *sendCodeButton;
-@property (nonatomic, strong) IBOutlet UIButton *existingUserButton;
-
-@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *spinnerView;
-@property (nonatomic) IBOutlet UIImageView *signalLogo;
-@property (nonatomic) IBOutlet UIView *registrationHeader;
-
-@property (nonatomic) IBOutlet NSLayoutConstraint *headerHeightConstraint;
+@property (weak, nonatomic) IBOutlet UILabel *footerLabel;
 
 - (IBAction)unwindToCountryCodeWasSelected:(UIStoryboardSegue *)segue;
 - (IBAction)unwindToCountryCodeSelectionCancelled:(UIStoryboardSegue *)segue;

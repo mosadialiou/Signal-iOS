@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
 
 @interface CodeVerificationViewController () <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *doneButton;
 
 @property (nonatomic, readonly) AccountManager *accountManager;
 
@@ -27,14 +28,16 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
 
 @property (nonatomic) UILabel *phoneNumberLabel;
 
+@property (nonatomic) UILabel *footerUILabel;
+
 //// User action buttons
 @property (nonatomic) UIButton *challengeButton;
-@property (nonatomic) UIButton *sendCodeViaSMSAgainButton;
-@property (nonatomic) UIButton *sendCodeViaVoiceButton;
 
 @property (nonatomic) UIActivityIndicatorView *submitCodeSpinner;
 @property (nonatomic) UIActivityIndicatorView *requestCodeAgainSpinner;
 @property (nonatomic) UIActivityIndicatorView *requestCallSpinner;
+
+@property (nonatomic) NSMutableArray *digitArray;
 
 @end
 
@@ -92,36 +95,6 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
 - (void)createViews {
     self.view.backgroundColor = [UIColor whiteColor];
     self.view.opaque = YES;
-
-    UIColor *signalBlueColor = [UIColor ows_signalBrandBlueColor];
-
-    UIView *header = [UIView new];
-    header.backgroundColor = signalBlueColor;
-    [self.view addSubview:header];
-    [header autoPinWidthToSuperview];
-    [header autoPinEdgeToSuperviewEdge:ALEdgeTop];
-    // The header will grow to accomodate the titleLabel's height.
-
-    UILabel *titleLabel = [UILabel new];
-    titleLabel.textColor = [UIColor whiteColor];
-    titleLabel.text = [self phoneNumberText];
-    titleLabel.font = [UIFont ows_mediumFontWithSize:20.f];
-    [header addSubview:titleLabel];
-    [titleLabel autoPinToTopLayoutGuideOfViewController:self withInset:0];
-    [titleLabel autoPinEdgeToSuperviewEdge:ALEdgeBottom];
-    [titleLabel autoSetDimension:ALDimensionHeight toSize:40];
-    [titleLabel autoHCenterInSuperview];
-
-    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [backButton setTitle:NSLocalizedString(@"VERIFICATION_BACK_BUTTON", @"button text for back button on verification view")
-                     forState:UIControlStateNormal];
-    [backButton setTitleColor:[UIColor whiteColor]
-                          forState:UIControlStateNormal];
-    backButton.titleLabel.font = [UIFont ows_mediumFontWithSize:14.f];
-    [header addSubview:backButton];
-    [backButton autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:10];
-    [backButton autoAlignAxis:ALAxisHorizontal toSameAxisOfView:titleLabel];
-    [backButton addTarget:self action:@selector(backButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     
     _phoneNumberLabel = [UILabel new];
     _phoneNumberLabel.textColor = [UIColor ows_darkGrayColor];
@@ -130,105 +103,85 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
     _phoneNumberLabel.adjustsFontSizeToFitWidth = YES;
     [self.view addSubview:_phoneNumberLabel];
     [_phoneNumberLabel autoPinWidthToSuperviewWithMargin:ScaleFromIPhone5(32)];
-    [_phoneNumberLabel autoPinEdge:ALEdgeTop
-                            toEdge:ALEdgeBottom
-                            ofView:header
-                        withOffset:ScaleFromIPhone5To7Plus(30, 100)];
+    
+    [_phoneNumberLabel autoPinEdgeToSuperviewEdge:ALEdgeTop withInset:ScaleFromIPhone5To7Plus(60, 130)];
 
     const CGFloat kHMargin = 36;
     
-    _challengeTextField = [UITextField new];
-    _challengeTextField.textColor = [UIColor blackColor];
-    _challengeTextField.placeholder = NSLocalizedString(@"VERIFICATION_CHALLENGE_DEFAULT_TEXT",
-                                                        @"Text field placeholder for SMS verification code during registration");
-    _challengeTextField.font = [UIFont ows_lightFontWithSize:21.f];
-    _challengeTextField.textAlignment = NSTextAlignmentCenter;
-    _challengeTextField.keyboardType = UIKeyboardTypeNumberPad;
-    _challengeTextField.delegate    = self;
-    [self.view addSubview:_challengeTextField];
-    [_challengeTextField autoPinWidthToSuperviewWithMargin:kHMargin];
-    [_challengeTextField autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:_phoneNumberLabel
+    UIView *container = [UIView new];
+    [self.view addSubview:container];
+    
+    [container autoPinWidthToSuperviewWithMargin:kHMargin];
+    [container autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:_phoneNumberLabel
                           withOffset:25];
     
-    UIView *underscoreView = [UIView new];
-    underscoreView.backgroundColor = [UIColor colorWithWhite:0.5 alpha:1.f];
-    [self.view addSubview:underscoreView];
-    [underscoreView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:_challengeTextField
-                     withOffset:3];
-    [underscoreView autoPinWidthToSuperviewWithMargin:kHMargin];
-    [underscoreView autoSetDimension:ALDimensionHeight toSize:1.f];
-    
-    _challengeButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _challengeButton.backgroundColor = signalBlueColor;
-    [_challengeButton setTitle:NSLocalizedString(@"VERIFICATION_CHALLENGE_SUBMIT_CODE", @"button text during registration to submit your SMS verification code")
-                     forState:UIControlStateNormal];
-    [_challengeButton setTitleColor:[UIColor whiteColor]
-                     forState:UIControlStateNormal];
-    _challengeButton.titleLabel.font = [UIFont ows_mediumFontWithSize:14.f];
-    [_challengeButton addTarget:self
-                         action:@selector(verifyChallengeAction:)
-               forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:_challengeButton];
-    [_challengeButton autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:underscoreView
-                      withOffset:15];
-    [_challengeButton autoPinWidthToSuperviewWithMargin:kHMargin];
-    [_challengeButton autoSetDimension:ALDimensionHeight toSize:47.f];
+    [self buildCodeViews: container];
 
-    const CGFloat kSpinnerSize = 20;
-    const CGFloat kSpinnerSpacing = 15;
+    _footerUILabel = [UILabel new];
+    _footerUILabel.text = @"You should receive a SMS with the code in 88 seconds.";
+    _footerUILabel.textColor = [UIColor ows_darkGrayColor];
+    _footerUILabel.font = [UIFont ows_regularFontWithSize:20.f];
+    _footerUILabel.numberOfLines = 0;
+    _footerUILabel.adjustsFontSizeToFitWidth = YES;
+    [self.view addSubview:_footerUILabel];
+    [_footerUILabel autoPinWidthToSuperviewWithMargin:ScaleFromIPhone5(32)];
+    [_footerUILabel autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:container
+                        withOffset:25];
+}
 
-    _submitCodeSpinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
-    [_challengeButton addSubview:_submitCodeSpinner];
-    [_submitCodeSpinner autoSetDimension:ALDimensionWidth toSize:kSpinnerSize];
-    [_submitCodeSpinner autoSetDimension:ALDimensionHeight toSize:kSpinnerSize];
-    [_submitCodeSpinner autoVCenterInSuperview];
-    [_submitCodeSpinner autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:kSpinnerSpacing];
+- (void) buildCodeViews: (UIView *) container{
     
-    _sendCodeViaSMSAgainButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _sendCodeViaSMSAgainButton.backgroundColor = [UIColor whiteColor];
-    [_sendCodeViaSMSAgainButton setTitle:NSLocalizedString(@"VERIFICATION_CHALLENGE_SUBMIT_AGAIN", @"button text during registration to request another SMS code be sent")
-                               forState:UIControlStateNormal];
-    [_sendCodeViaSMSAgainButton setTitleColor:signalBlueColor
-                                    forState:UIControlStateNormal];
-    _sendCodeViaSMSAgainButton.titleLabel.font = [UIFont ows_mediumFontWithSize:14.f];
-    [_sendCodeViaSMSAgainButton addTarget:self
-                                   action:@selector(sendCodeViaSMSAction:)
-                         forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:_sendCodeViaSMSAgainButton];
-    [_sendCodeViaSMSAgainButton autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:_challengeButton
-                                withOffset:10];
-    [_sendCodeViaSMSAgainButton autoPinWidthToSuperviewWithMargin:kHMargin];
-    [_sendCodeViaSMSAgainButton autoSetDimension:ALDimensionHeight toSize:35];
+    _digitArray = [[NSMutableArray alloc] init];
     
-    _requestCodeAgainSpinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-    [_sendCodeViaSMSAgainButton addSubview:_requestCodeAgainSpinner];
-    [_requestCodeAgainSpinner autoSetDimension:ALDimensionWidth toSize:kSpinnerSize];
-    [_requestCodeAgainSpinner autoSetDimension:ALDimensionHeight toSize:kSpinnerSize];
-    [_requestCodeAgainSpinner autoVCenterInSuperview];
-    [_requestCodeAgainSpinner autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:kSpinnerSpacing];
+     const CGFloat kHMargin = 20;
     
-    _sendCodeViaVoiceButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _sendCodeViaVoiceButton.backgroundColor = [UIColor whiteColor];
-    [_sendCodeViaVoiceButton setTitle:NSLocalizedString(@"VERIFICATION_CHALLENGE_SEND_VIA_VOICE",
-                                @"button text during registration to request phone number verification be done via phone call")
-                            forState:UIControlStateNormal];
-    [_sendCodeViaVoiceButton setTitleColor:signalBlueColor
-                                    forState:UIControlStateNormal];
-    _sendCodeViaVoiceButton.titleLabel.font = [UIFont ows_mediumFontWithSize:14.f];
-    [_sendCodeViaVoiceButton addTarget:self
-                                action:@selector(sendCodeViaVoiceAction:)
-                      forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:_sendCodeViaVoiceButton];
-    [_sendCodeViaVoiceButton autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:_sendCodeViaSMSAgainButton];
-    [_sendCodeViaVoiceButton autoPinWidthToSuperviewWithMargin:kHMargin];
-    [_sendCodeViaVoiceButton autoSetDimension:ALDimensionHeight toSize:35];
+    id previous = nil;
     
-    _requestCallSpinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-    [_sendCodeViaVoiceButton addSubview:_requestCallSpinner];
-    [_requestCallSpinner autoSetDimension:ALDimensionWidth toSize:kSpinnerSize];
-    [_requestCallSpinner autoSetDimension:ALDimensionHeight toSize:kSpinnerSize];
-    [_requestCallSpinner autoVCenterInSuperview];
-    [_requestCallSpinner autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:kSpinnerSpacing];
+    const int number = 6;
+    
+    const float factor = 1.0f / number;
+    
+    const double constant = factor * 5 * kHMargin;
+    
+    for(int i = 0; i < number; i++) {
+       UITextField *txtField = [UITextField new];
+        txtField.textColor = [UIColor blackColor];
+        txtField.font = [UIFont ows_lightFontWithSize:21.f];
+        txtField.textAlignment = NSTextAlignmentCenter;
+        txtField.keyboardType = UIKeyboardTypeNumberPad;
+        txtField.delegate    = self;
+        
+        [container addSubview:txtField];
+        
+        [[NSLayoutConstraint constraintWithItem:txtField attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeWidth multiplier:(factor) constant: -constant] setActive:YES];
+        
+        [txtField autoPinEdgeToSuperviewEdge:ALEdgeTop];
+        
+        UIView *underscoreView = [UIView new];
+        underscoreView.backgroundColor = [UIColor colorWithWhite:0.5 alpha:1.f];
+        [container addSubview:underscoreView];
+        
+        [underscoreView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:txtField
+                         withOffset:3];
+        [underscoreView autoPinEdge:ALEdgeLeading toEdge:ALEdgeLeading ofView:txtField];
+        [underscoreView autoPinEdge:ALEdgeTrailing toEdge:ALEdgeTrailing ofView:txtField];
+        [underscoreView autoSetDimension:ALDimensionHeight toSize:1.f];
+        [underscoreView autoPinEdgeToSuperviewEdge:ALEdgeBottom];
+        
+        if(previous != nil){
+            [txtField autoPinEdge:ALEdgeLeading toEdge:ALEdgeTrailing ofView:previous withOffset:kHMargin];
+        }else {
+            [txtField autoPinEdgeToSuperviewEdge:ALEdgeLeading];
+        }
+        
+        if(i == 0){
+            _challengeTextField = txtField;
+        }
+        
+        previous = txtField;
+        
+        [_digitArray addObject:txtField];
+    }
 }
 
 - (NSString *)phoneNumberText
@@ -250,12 +203,18 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
     [self.submitCodeSpinner startAnimating];
     [self enableServerActions:NO];
     [self.challengeTextField resignFirstResponder];
+    _doneButton.enabled = NO;
+
 }
 
 - (void)stopActivityIndicator
 {
     [self enableServerActions:YES];
     [self.submitCodeSpinner stopAnimating];
+    _doneButton.enabled = YES;
+}
+- (IBAction)verifyCode:(id)sender {
+    [self verifyChallengeAction:sender];
 }
 
 - (void)verifyChallengeAction:(nullable id)sender
@@ -307,7 +266,11 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
 }
 
 - (NSString *)validationCodeFromTextField {
-    return [self.challengeTextField.text stringByReplacingOccurrencesOfString:@"-" withString:@""];
+    NSMutableString *code = [NSMutableString new];
+    for(id txt in _digitArray) {
+        [code appendString:((UITextField *)txt).text];
+    }
+    return code;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(nullable id)sender
@@ -336,41 +299,6 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
 
 #pragma mark - Send codes again
 
-- (void)sendCodeViaSMSAction:(id)sender {
-    [self enableServerActions:NO];
-
-    [_requestCodeAgainSpinner startAnimating];
-    [TSAccountManager rerequestSMSWithSuccess:^{
-        DDLogInfo(@"%@ Successfully requested SMS code", self.tag);
-        [self enableServerActions:YES];
-        [_requestCodeAgainSpinner stopAnimating];
-    }
-        failure:^(NSError *error) {
-            DDLogError(@"%@ Failed to request SMS code with error: %@", self.tag, error);
-            [self showRegistrationErrorMessage:error];
-            [self enableServerActions:YES];
-            [_requestCodeAgainSpinner stopAnimating];
-        }];
-}
-
-- (void)sendCodeViaVoiceAction:(id)sender {
-    [self enableServerActions:NO];
-
-    [_requestCallSpinner startAnimating];
-    [TSAccountManager rerequestVoiceWithSuccess:^{
-        DDLogInfo(@"%@ Successfully requested voice code", self.tag);
-
-        [self enableServerActions:YES];
-        [_requestCallSpinner stopAnimating];
-    }
-        failure:^(NSError *error) {
-            DDLogError(@"%@ Failed to request voice code with error: %@", self.tag, error);
-            [self showRegistrationErrorMessage:error];
-            [self enableServerActions:YES];
-            [_requestCallSpinner stopAnimating];
-        }];
-}
-
 - (void)showRegistrationErrorMessage:(NSError *)registrationError {
     UIAlertView *registrationErrorAV = [[UIAlertView alloc] initWithTitle:registrationError.localizedDescription
                                                                   message:registrationError.localizedRecoverySuggestion
@@ -383,12 +311,6 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
 
 - (void)enableServerActions:(BOOL)enabled {
     [_challengeButton setEnabled:enabled];
-    [_sendCodeViaSMSAgainButton setEnabled:enabled];
-    [_sendCodeViaVoiceButton setEnabled:enabled];
-}
-
-- (void)backButtonPressed:(id)sender {
-    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark - Keyboard notifications
@@ -406,60 +328,28 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
 - (BOOL)textField:(UITextField *)textField
     shouldChangeCharactersInRange:(NSRange)range
                 replacementString:(NSString *)insertionText {
-
-    // Verification codes take this form: "123-456".
-    //
-    // * We only want to let the user "6 decimal digits + 1 hyphen = 7".
-    // * The user shouldn't have to enter the hyphen - it should be added automatically.
-    // * The user should be able to copy and paste freely.
-    // * Invalid input (including extraneous hyphens) should be simply ignored.
-    //
-    // We accomplish this by being permissive and trying to "take as much of the user
-    // input as possible".
-    //
-    // * Always accept deletes.
-    // * Ignore invalid input.
-    // * Take partial input if possible.
     
-    NSString *oldText = textField.text;
-    // Construct the new contents of the text field by:
-    // 1. Determining the "left" substring: the contents of the old text _before_ the deletion range.
-    //    Filtering will remove non-decimal digit characters like hyphen "-".
-    NSString *left = [oldText substringToIndex:range.location].digitsOnly;
-    // 2. Determining the "right" substring: the contents of the old text _after_ the deletion range.
-    NSString *right = [oldText substringFromIndex:range.location + range.length].digitsOnly;
-    // 3. Determining the "center" substring: the contents of the new insertion text.
-    NSString *center = insertionText.digitsOnly;
-    // 3a. Trim the tail of the "center" substring to ensure that we don't end up
-    //     with more than 6 decimal digits.
-    while (center.length > 0 &&
-           left.length + center.length + right.length > 6) {
-        center = [center substringToIndex:center.length - 1];
-    }
-    // 4. Construct the "raw" new text by concatenating left, center and right.
-    NSString *rawNewText = [[left stringByAppendingString:center]
-                            stringByAppendingString:right];
-    // 5. Construct the "formatted" new text by inserting a hyphen if necessary.
-    NSString *formattedNewText = (rawNewText.length <= 3
-                                  ? rawNewText
-                                  : [[[rawNewText substringToIndex:3]
-                                      stringByAppendingString:@"-"]
-                                     stringByAppendingString:[rawNewText substringFromIndex:3]]);
-    textField.text = formattedNewText;
+    textField.text = insertionText;
     
-    // Move the cursor after the newly inserted text.
-    NSUInteger newInsertionPoint = left.length + center.length;
-    if (newInsertionPoint > 3) {
-        // Nudge the cursor to the right to reflect the hyphen
-        // if necessary.
-        newInsertionPoint++;
+    int count = (int)_digitArray.count;
+    for(int i=0; i< count; i++){
+        NSUInteger pos = (NSUInteger) i;
+        if([textField.text length] != 0 &&  i < (count -1) && [_digitArray objectAtIndex:pos] == textField){
+            [[_digitArray objectAtIndex:pos+1] becomeFirstResponder];
+            break;
+        }
     }
-    UITextPosition *newPosition = [textField positionFromPosition:textField.beginningOfDocument
-                                                           offset:(NSInteger) newInsertionPoint];
-    textField.selectedTextRange = [textField textRangeFromPosition:newPosition
-                                                        toPosition:newPosition];
+    
+    _doneButton.enabled = [self codeInserted];
     
     return NO;
+}
+
+-(BOOL) codeInserted {
+    for(id txtField in _digitArray){
+        if([((UITextField *)txtField).text length] == 0) return NO;
+    }
+    return YES;
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
