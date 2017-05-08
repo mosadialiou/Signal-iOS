@@ -96,37 +96,40 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
     self.view.backgroundColor = [UIColor whiteColor];
     self.view.opaque = YES;
     
+    const CGFloat kHMargin = 40;
+    
     _phoneNumberLabel = [UILabel new];
-    _phoneNumberLabel.textColor = [UIColor ows_darkGrayColor];
-    _phoneNumberLabel.font = [UIFont ows_regularFontWithSize:20.f];
-    _phoneNumberLabel.numberOfLines = 2;
+    _phoneNumberLabel.textColor = [UIColor nm_darkGrayColor];
+    _phoneNumberLabel.font = [UIFont fontWithName:@"HelveticaNeue-Normal" size:18.f];
+    _phoneNumberLabel.numberOfLines = 0;
     _phoneNumberLabel.adjustsFontSizeToFitWidth = YES;
     [self.view addSubview:_phoneNumberLabel];
-    [_phoneNumberLabel autoPinWidthToSuperviewWithMargin:ScaleFromIPhone5(32)];
+    [_phoneNumberLabel autoPinWidthToSuperviewWithMargin:ScaleFromIPhone5(kHMargin)];
     
     [_phoneNumberLabel autoPinEdgeToSuperviewEdge:ALEdgeTop withInset:ScaleFromIPhone5To7Plus(60, 130)];
 
-    const CGFloat kHMargin = 36;
     
     UIView *container = [UIView new];
     [self.view addSubview:container];
     
-    [container autoPinWidthToSuperviewWithMargin:kHMargin];
+    [container autoPinEdge:ALEdgeLeading toEdge:ALEdgeLeading ofView:_phoneNumberLabel];
+    [container autoPinEdge:ALEdgeTrailing toEdge:ALEdgeTrailing ofView:_phoneNumberLabel];
+    
     [container autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:_phoneNumberLabel
-                          withOffset:25];
+                          withOffset:60];
     
     [self buildCodeViews: container];
 
     _footerUILabel = [UILabel new];
     _footerUILabel.text = @"You should receive a SMS with the code in 88 seconds.";
-    _footerUILabel.textColor = [UIColor ows_darkGrayColor];
-    _footerUILabel.font = [UIFont ows_regularFontWithSize:20.f];
+    _footerUILabel.textColor = [UIColor nm_darkGrayColor];
+    _footerUILabel.font = [UIFont fontWithName:@"HelveticaNeue-Normal" size:18.f];
     _footerUILabel.numberOfLines = 0;
     _footerUILabel.adjustsFontSizeToFitWidth = YES;
     [self.view addSubview:_footerUILabel];
-    [_footerUILabel autoPinWidthToSuperviewWithMargin:ScaleFromIPhone5(32)];
+    [_footerUILabel autoPinWidthToSuperviewWithMargin:ScaleFromIPhone5(kHMargin)];
     [_footerUILabel autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:container
-                        withOffset:25];
+                        withOffset:60];
 }
 
 - (void) buildCodeViews: (UIView *) container{
@@ -145,8 +148,8 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
     
     for(int i = 0; i < number; i++) {
        UITextField *txtField = [UITextField new];
-        txtField.textColor = [UIColor blackColor];
-        txtField.font = [UIFont ows_lightFontWithSize:21.f];
+        txtField.textColor = [UIColor nm_blueColor];
+        txtField.font = [UIFont fontWithName:@"HelveticaNeue-Medium" size:21.f];
         txtField.textAlignment = NSTextAlignmentCenter;
         txtField.keyboardType = UIKeyboardTypeNumberPad;
         txtField.delegate    = self;
@@ -158,14 +161,14 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
         [txtField autoPinEdgeToSuperviewEdge:ALEdgeTop];
         
         UIView *underscoreView = [UIView new];
-        underscoreView.backgroundColor = [UIColor colorWithWhite:0.5 alpha:1.f];
+        underscoreView.backgroundColor = [UIColor nm_blueColor];
         [container addSubview:underscoreView];
         
         [underscoreView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:txtField
                          withOffset:3];
         [underscoreView autoPinEdge:ALEdgeLeading toEdge:ALEdgeLeading ofView:txtField];
         [underscoreView autoPinEdge:ALEdgeTrailing toEdge:ALEdgeTrailing ofView:txtField];
-        [underscoreView autoSetDimension:ALDimensionHeight toSize:1.f];
+        [underscoreView autoSetDimension:ALDimensionHeight toSize:2.f];
         [underscoreView autoPinEdgeToSuperviewEdge:ALEdgeBottom];
         
         if(previous != nil){
@@ -180,7 +183,7 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
         
         previous = txtField;
         
-        [_digitArray addObject:txtField];
+        [_digitArray addObject:@[txtField, underscoreView]];
     }
 }
 
@@ -268,7 +271,7 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
 - (NSString *)validationCodeFromTextField {
     NSMutableString *code = [NSMutableString new];
     for(id txt in _digitArray) {
-        [code appendString:((UITextField *)txt).text];
+        [code appendString:((UITextField *)txt[0]).text];
     }
     return code;
 }
@@ -334,8 +337,9 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
     int count = (int)_digitArray.count;
     for(int i=0; i< count; i++){
         NSUInteger pos = (NSUInteger) i;
-        if([textField.text length] != 0 &&  i < (count -1) && [_digitArray objectAtIndex:pos] == textField){
-            [[_digitArray objectAtIndex:pos+1] becomeFirstResponder];
+        if([textField.text length] != 0 &&  i < (count -1) && [_digitArray objectAtIndex:pos][0] == textField){
+            [[_digitArray objectAtIndex:pos][1] autoSetDimension:ALDimensionHeight toSize:1.f];
+            [[_digitArray objectAtIndex:pos+1][0] becomeFirstResponder];
             break;
         }
     }
@@ -347,7 +351,7 @@ NSString *const kCompletedRegistrationSegue = @"CompletedRegistration";
 
 -(BOOL) codeInserted {
     for(id txtField in _digitArray){
-        if([((UITextField *)txtField).text length] == 0) return NO;
+        if([((UITextField *)txtField[0]).text length] == 0) return NO;
     }
     return YES;
 }

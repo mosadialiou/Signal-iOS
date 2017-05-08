@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		17B418CF6F2C093A6EFCF807 /* libPods-NeverMyndTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C98B0A8B3DF88022F21F7E /* libPods-NeverMyndTests.a */; };
+		1A89DAE01EBFAC1200BD387B /* HelveticaNeueLTCom-Th.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A89DADE1EBFABF800BD387B /* HelveticaNeueLTCom-Th.ttf */; };
+		1A89DAE11EBFAC1500BD387B /* HelveticaNeueLTCom-Bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A89DADF1EBFABF800BD387B /* HelveticaNeueLTCom-Bd.ttf */; };
 		341BB7491DB727EE001E2975 /* JSQMediaItem+OWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BB7481DB727EE001E2975 /* JSQMediaItem+OWS.m */; };
 		34330A5A1E7875FB00DF2FB9 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34330A591E7875FB00DF2FB9 /* fontawesome-webfont.ttf */; };
 		34330A5C1E787A9800DF2FB9 /* dripicons-v2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34330A5B1E787A9800DF2FB9 /* dripicons-v2.ttf */; };
@@ -338,6 +340,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A89DADE1EBFABF800BD387B /* HelveticaNeueLTCom-Th.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTCom-Th.ttf"; sourceTree = "<group>"; };
+		1A89DADF1EBFABF800BD387B /* HelveticaNeueLTCom-Bd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTCom-Bd.ttf"; sourceTree = "<group>"; };
 		341BB7471DB727EE001E2975 /* JSQMediaItem+OWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSQMediaItem+OWS.h"; sourceTree = "<group>"; };
 		341BB7481DB727EE001E2975 /* JSQMediaItem+OWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSQMediaItem+OWS.m"; sourceTree = "<group>"; };
 		34330A591E7875FB00DF2FB9 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
@@ -811,6 +815,8 @@
 		34330A581E7875FB00DF2FB9 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				1A89DADE1EBFABF800BD387B /* HelveticaNeueLTCom-Th.ttf */,
+				1A89DADF1EBFABF800BD387B /* HelveticaNeueLTCom-Bd.ttf */,
 				34330A5B1E787A9800DF2FB9 /* dripicons-v2.ttf */,
 				34330A5D1E787BD800DF2FB9 /* ElegantIcons.ttf */,
 				34330A591E7875FB00DF2FB9 /* fontawesome-webfont.ttf */,
@@ -1722,6 +1728,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A89DAE11EBFAC1500BD387B /* HelveticaNeueLTCom-Bd.ttf in Resources */,
 				AD41D7B61A6F6F0600241130 /* play_button@2x.png in Resources */,
 				AD83FF3F1A73426500B5C81A /* audio_pause_button_blue.png in Resources */,
 				34330A5A1E7875FB00DF2FB9 /* fontawesome-webfont.ttf in Resources */,
@@ -1753,6 +1760,7 @@
 				45CB2FA81CB7146C00E1B343 /* Launch Screen.storyboard in Resources */,
 				34B3F8781E8DF1700035BE1A /* ContactsPicker.xib in Resources */,
 				B633C5C31A1D190B0059AC12 /* mute_off@2x.png in Resources */,
+				1A89DAE01EBFAC1200BD387B /* HelveticaNeueLTCom-Th.ttf in Resources */,
 				AD83FF411A73426500B5C81A /* audio_play_button_blue@2x.png in Resources */,
 				FC5CDF3A1A3393DD00B47253 /* warning_white@2x.png in Resources */,
 				E1370BE018A0686600826894 /* busy.mp3 in Resources */,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zqr-Ab-axp">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -9,6 +9,11 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLTCom-Th.ttf">
+            <string>HelveticaNeueLTCom-Th</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--_1.0 Registration Screen-->
         <scene sceneID="mx5-Ld-bVC">
@@ -19,24 +24,24 @@
                         <viewControllerLayoutGuide type="bottom" id="VXl-FQ-a8g"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NJf-bg-N21" userLabel="_1.0 Registration Screen">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your country code and phone number" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0h-3v-ziO">
-                                <rect key="frame" x="42" y="114" width="301" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <rect key="frame" x="40" y="114" width="240" height="42"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.45882352941176469" green="0.45882352941176469" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-jb-g2o">
-                                <rect key="frame" x="42" y="212" width="301" height="26"/>
+                                <rect key="frame" x="40" y="206" width="240" height="26"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="XPQ-5W-mbO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeueLTCom-Th" family="Helvetica Neue LT Com" pointSize="18"/>
                                 <state key="normal" title="+1">
-                                    <color key="titleColor" red="0.054103322330000002" green="0.45790460710000003" blue="0.9261735082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.25490196078431371" green="0.50980392156862742" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -44,57 +49,57 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lch-qL-C1Y" userLabel="HorizontalSep1">
-                                <rect key="frame" x="42" y="239" width="301" height="1"/>
-                                <color key="backgroundColor" red="0.45882352941176469" green="0.45882352941176469" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="40" y="235" width="240" height="1"/>
+                                <color key="backgroundColor" red="0.25490196078431371" green="0.50980392156862742" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="B7F-lc-fBJ"/>
                                 </constraints>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3dc-W2-Cct">
-                                <rect key="frame" x="42" y="266" width="301" height="24"/>
+                                <rect key="frame" x="40" y="278" width="240" height="18"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.23574128750000001" green="0.2357865572" blue="0.23573371770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeueLTCom-Th" family="Helvetica Neue LT Com" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" keyboardAppearance="light"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dl2-b7-xdO" userLabel="HorizontalSep2">
-                                <rect key="frame" x="42" y="291" width="301" height="1"/>
+                                <rect key="frame" x="40" y="299" width="240" height="1"/>
                                 <color key="backgroundColor" red="0.45882352941176469" green="0.45882352941176469" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="7Wy-sn-aVX"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A SMS verification code will be sent to your phone number." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3q-ai-0DD">
-                                <rect key="frame" x="42" y="342" width="301" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <rect key="frame" x="40" y="350" width="240" height="63"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.45882352939999999" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="3dc-W2-Cct" firstAttribute="bottom" secondItem="Lch-qL-C1Y" secondAttribute="bottom" constant="50" id="4ve-MY-V1g"/>
+                            <constraint firstItem="3dc-W2-Cct" firstAttribute="bottom" secondItem="Lch-qL-C1Y" secondAttribute="bottom" constant="60" id="4ve-MY-V1g"/>
                             <constraint firstItem="Dl2-b7-xdO" firstAttribute="trailing" secondItem="3dc-W2-Cct" secondAttribute="trailing" id="59B-wQ-bzy"/>
                             <constraint firstItem="D3q-ai-0DD" firstAttribute="leading" secondItem="K0h-3v-ziO" secondAttribute="leading" id="5yn-qF-uje"/>
                             <constraint firstItem="D3q-ai-0DD" firstAttribute="top" secondItem="Dl2-b7-xdO" secondAttribute="bottom" constant="50" id="7bs-98-0K2"/>
                             <constraint firstItem="Lch-qL-C1Y" firstAttribute="leading" secondItem="aSz-jb-g2o" secondAttribute="leading" id="GVM-yY-oBq"/>
-                            <constraint firstItem="Lch-qL-C1Y" firstAttribute="bottom" secondItem="aSz-jb-g2o" secondAttribute="bottom" constant="2" id="ILk-y8-pLo"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="aSz-jb-g2o" secondAttribute="trailing" constant="16" id="Len-Yf-3Zk"/>
-                            <constraint firstItem="K0h-3v-ziO" firstAttribute="leading" secondItem="NJf-bg-N21" secondAttribute="leading" constant="42" id="M2D-te-gG4"/>
+                            <constraint firstItem="Lch-qL-C1Y" firstAttribute="bottom" secondItem="aSz-jb-g2o" secondAttribute="bottom" constant="4" id="ILk-y8-pLo"/>
+                            <constraint firstItem="K0h-3v-ziO" firstAttribute="leading" secondItem="NJf-bg-N21" secondAttribute="leading" constant="40" id="M2D-te-gG4"/>
                             <constraint firstItem="aSz-jb-g2o" firstAttribute="leading" secondItem="K0h-3v-ziO" secondAttribute="leading" id="PR5-iQ-S8f"/>
                             <constraint firstItem="Lch-qL-C1Y" firstAttribute="trailing" secondItem="aSz-jb-g2o" secondAttribute="trailing" id="Rer-Lh-mKM"/>
-                            <constraint firstItem="Dl2-b7-xdO" firstAttribute="bottom" secondItem="3dc-W2-Cct" secondAttribute="bottom" constant="2" id="VFi-Ff-3ah"/>
+                            <constraint firstItem="Dl2-b7-xdO" firstAttribute="bottom" secondItem="3dc-W2-Cct" secondAttribute="bottom" constant="4" id="VFi-Ff-3ah"/>
                             <constraint firstItem="aSz-jb-g2o" firstAttribute="top" secondItem="K0h-3v-ziO" secondAttribute="bottom" constant="50" id="X3P-rg-Rlt"/>
                             <constraint firstItem="K0h-3v-ziO" firstAttribute="top" secondItem="r20-Uu-fes" secondAttribute="bottom" constant="50" id="Xy4-eh-lCs"/>
                             <constraint firstItem="D3q-ai-0DD" firstAttribute="trailing" secondItem="K0h-3v-ziO" secondAttribute="trailing" id="fh8-LI-3hw"/>
+                            <constraint firstItem="aSz-jb-g2o" firstAttribute="trailing" secondItem="K0h-3v-ziO" secondAttribute="trailing" id="g1J-m0-9gS"/>
                             <constraint firstItem="3dc-W2-Cct" firstAttribute="trailing" secondItem="aSz-jb-g2o" secondAttribute="trailing" id="hJi-1B-DKf"/>
                             <constraint firstItem="3dc-W2-Cct" firstAttribute="leading" secondItem="aSz-jb-g2o" secondAttribute="leading" id="oY7-7K-GKh"/>
                             <constraint firstItem="Dl2-b7-xdO" firstAttribute="leading" secondItem="3dc-W2-Cct" secondAttribute="leading" id="q5y-el-gyw"/>
-                            <constraint firstAttribute="trailing" secondItem="K0h-3v-ziO" secondAttribute="trailing" constant="32" id="v0N-ee-BAe"/>
+                            <constraint firstAttribute="trailing" secondItem="K0h-3v-ziO" secondAttribute="trailing" constant="40" id="v0N-ee-BAe"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Phone Number" id="aOm-aR-EwI">
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" systemItem="done" id="Km0-U5-X7g">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" image="arrow_next" id="Km0-U5-X7g">
                             <connections>
                                 <action selector="sendCodeAction:" destination="nS2-Vr-sRt" id="fUP-K9-IU4"/>
                             </connections>
@@ -117,7 +122,7 @@
         <scene sceneID="CXh-B2-B5s">
             <objects>
                 <navigationController id="CCL-Zs-hfU" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cF0-06-4sO">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cF0-06-4sO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.40784313729999999" green="0.61176470589999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -135,11 +140,11 @@
             <objects>
                 <tableViewController storyboardIdentifier="CountryCodeViewController" id="Z2i-u6-bhY" userLabel="_2.0_1.0__1 Country Code Modal" customClass="CountryCodeViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="HIm-Hc-yjX" userLabel="_1.0__1 Country Code Table">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" id="CMs-3a-1tn" userLabel="__1a Search Bar">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
@@ -148,15 +153,15 @@
                         </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CountryCodeTableViewCell" id="LFg-KJ-GnQ" userLabel="__1b Country Code Table" customClass="CountryCodeTableViewCell">
-                                <rect key="frame" x="0.0" y="66" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LFg-KJ-GnQ" id="o6y-AP-QLT" userLabel="Country Code Table Row">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="United states" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyx-0e-8jI">
-                                            <rect key="frame" x="20" y="11" width="359" height="22"/>
-                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                            <rect key="frame" x="20" y="12" width="304" height="20"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -211,7 +216,7 @@
                 <viewController storyboardIdentifier="CodeVerificationViewController" id="vAf-74-zQH" userLabel="_1.1 Verification Screen" customClass="CodeVerificationViewController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Verification code" id="KvQ-qd-ysw">
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" systemItem="done" id="iw9-Vq-FWc">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" image="arrow_next" id="iw9-Vq-FWc">
                             <connections>
                                 <action selector="verifyCode:" destination="vAf-74-zQH" id="ZBb-8J-uZL"/>
                             </connections>
@@ -239,7 +244,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zqr-Ab-axp" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Aon-Yn-49y">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Aon-Yn-49y">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.40784313725490196" green="0.61176470588235299" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -259,6 +264,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrow_next" width="16" height="26"/>
         <image name="btnCancel--white" width="44" height="44"/>
     </resources>
 </document>

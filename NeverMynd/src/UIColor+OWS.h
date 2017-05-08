@@ -19,5 +19,8 @@
 + (UIColor *)ows_infoMessageBorderColor;
 + (UIColor *)backgroundColorForContact:(NSString *)contactIdentifier;
 + (UIColor *)colorWithRGBHex:(unsigned long)value;
++ (UIColor *)nm_darkGrayColor;
++ (UIColor *)nm_blueColor;
++ (UIColor *)nm_redColor;
 
 @end

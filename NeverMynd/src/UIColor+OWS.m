@@ -115,4 +115,19 @@
     return [UIColor colorWithRed:red green:green blue:blue alpha:1.f];
 }
 
++ (UIColor *)nm_darkGrayColor
+{
+    return [UIColor colorWithRed:117.f / 255.f green:117.f / 255.f blue:117.f / 255.f alpha:1.f];
+}
+
++ (UIColor *)nm_blueColor
+{
+    return [UIColor colorWithRed:65.f / 255.f green:130.f / 255.f blue:255.f / 255.f alpha:1.f];
+}
+
++ (UIColor *)nm_redColor
+{
+    return [UIColor colorWithRed:185.f / 255.f green:24.f / 255.f blue:6.f / 255.f alpha:1.f];
+}
+
 @end
