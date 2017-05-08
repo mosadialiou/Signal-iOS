@@ -29,6 +29,7 @@ static NSString *const kUnwindToCountryCodeWasSelectedSegue = @"UnwindToCountryC
                                                                                               target:self
                                                                                                        action:@selector(dismissWasPressed:)];
     }
+    _countryCodeTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
 #pragma mark - UITableViewDelegate
